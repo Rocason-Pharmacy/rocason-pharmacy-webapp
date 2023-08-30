@@ -1,0 +1,42 @@
+:root {
+  font-size: 62.5%;
+  --blue: #2E318F;
+  --white: #ffffff;
+  --green:#00A551;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit
+}
+
+body {
+ margin-left: 5rem;
+ margin-right: 5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+p, li{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+button{
+  cursor: pointer;
+}
