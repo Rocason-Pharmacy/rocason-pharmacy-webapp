@@ -1,0 +1,17 @@
+FROM node:latest
+WORKDIR /app
+EXPOSE 80
+
+COPY ./ ./
+
+RUN yarn version
+
+RUN npm install -g serve
+
+RUN yarn install
+
+RUN yarn run build
+
+ENV PORT=80
+
+CMD ["serve", "-s", "build"]
