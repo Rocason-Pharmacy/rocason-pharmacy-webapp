@@ -1,0 +1,56 @@
+.hero{
+    background-image: url(../../assets/home/heroImg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 28.9rem 2.2rem;
+}
+
+.hero-top-text {
+    color: var(--green);
+    font-size: 1.4rem;
+    font-weight: 750;
+    padding: 0.6rem 0 14.7rem 0;
+}
+
+.hero h1{
+    color: var(--white);
+    padding-bottom: 3rem;
+    line-height: 36px;
+}
+
+.hero-rich-text{
+    color: var(--green);
+}
+
+.hero-bottom-text{
+    color: var(--white);
+}
+
+.overview-container{
+    padding: 5rem 2.2rem;
+}
+
+.overview-header {
+    color: #231F20;
+    line-height: 32px;
+    padding-bottom: 3rem;
+}
+
+.overview-text {
+    color: rgba(35, 31, 32, 0.90);
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    padding-bottom: 3rem;
+}
+
+.overview-btn {
+    color: var(--white);
+    font-weight: 750;
+    line-height: 25px;
+    letter-spacing: 0.32px;
+    background: var(--green);
+    border: none;
+    padding: 1.2rem 4.2rem;
+    border-radius: 4.5rem;
+}
