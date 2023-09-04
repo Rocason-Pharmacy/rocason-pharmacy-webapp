@@ -192,6 +192,7 @@
     font-size: 1rem;
     font-weight: 750;
     z-index: 1;
+    cursor: pointer;
   }
 
   .img-container{
