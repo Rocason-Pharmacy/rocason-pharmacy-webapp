@@ -1,3 +1,5 @@
+import Pills from '../../assets/home/pills.png'
+import PCM from '../../assets/home/pcm.png'
 const ProductCategory = () => {
   return (
     <div>
@@ -10,6 +12,9 @@ const ProductCategory = () => {
               <h2>Prescription Medicines</h2>
               <p>Your Choice For Quality and <br/>Affordable Drugs.</p>
               <button className='buynow-btn'>Buy Now</button>
+              <div className='img-container'>
+              <img src={Pills} alt='' />
+              </div>
             </div>
             <div className='medic-section-b'>
             </div>
