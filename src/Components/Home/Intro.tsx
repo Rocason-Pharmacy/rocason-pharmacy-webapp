@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../Home/intro.css'
 
 const Intro = () => {
@@ -18,7 +19,7 @@ const Intro = () => {
             food supplements for overall well-being meeting the highest standard for safety, potency and efficacy. 
             Additionally, We offer quick delivery service to your doorstep nationwide.
         </p>
-        <button className='overview-btn'>Contact Us</button>
+        <Link to='/contact'><button className='overview-btn'>Contact Us</button></Link>
       </div>
     </div>
   )
