@@ -1,5 +1,5 @@
 import Pills from '../../assets/home/pills.png'
-import PCM from '../../assets/home/pcm.png'
+import Wellman from '../../assets/home/wellman.png'
 const ProductCategory = () => {
   return (
     <div>
@@ -17,10 +17,23 @@ const ProductCategory = () => {
               </div>
             </div>
             <div className='medic-section-b'>
+              <div className='medic-bg'>
+              <h2>OTC</h2>
+              <button className='buynow-btn-b'>Buy Now</button>
+              </div>
             </div>
             <div className='medic-section-c'>
+            <div className='medic-bg-c'>
+              <h2>Cold/Flu</h2>
+              <button className='buynow-btn-c'>Buy Now</button>
+              </div>
             </div>
             <div className='medic-section-d'>
+            <h2>Supplements</h2>
+              <button className='buynow-btn-d'>Buy Now</button>
+              <div className='img-container-d'>
+              <img src={Wellman} alt='' />
+              </div>
             </div>
         </div>
     </div>
