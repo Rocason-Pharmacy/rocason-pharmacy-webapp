@@ -1,4 +1,8 @@
 import { NavLink } from 'react-router-dom'
+import {FaTwitter} from 'react-icons/fa'
+import {FaFacebookF} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
+import {BsInstagram} from 'react-icons/bs'
 import '../Layout/footer.css'
 const Footer = () => {
   return (
@@ -8,29 +12,21 @@ const Footer = () => {
         <h1>
         ROCASON
         <br/>
+        <span className='footer-text'>
         PHARMACY
+        </span>
         </h1>
-        <p>
+        <p className='footer-subtext'>
           Your favourite online pharmacy store. 
           We offer onsite delivery and your health is our priority
         </p>
       </div>
-      <div>
-        <ul className="links">
-        <li className="footer-header">Social Media</li>
-        <NavLink to="/" className="footer-links">
-          <li className="links-nav">Facebook</li>
-        </NavLink>
-        <NavLink to="/" className="footer-links">
-          <li className="links-nav">Twitter</li>
-        </NavLink>
-        <NavLink to="/" className="footer-links">
-          <li className="links-nav">LinkedIn</li>
-        </NavLink>
-      </ul>
+      <div className='footer-social-links'>
+        <FaFacebookF/>
+        <FaTwitter/>
+        <FaLinkedin/>
+        <BsInstagram/>
       </div>
-
-      
     </div>
 
     <hr className="footer-hr" />
@@ -71,12 +67,9 @@ const Footer = () => {
     <div className="footer-bottom">
       <p className="copyright">
         &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-        <span className="footer-span">powered by</span> Phasecurve
+        <br/>Web design by Phasecurve Technology
       </p>
-      <p className="cookies">
-        We use cookies on this website, you can find more information about
-        cookies here.
-      </p>
+      
     </div>
   </div>
   )
