@@ -88,8 +88,19 @@
   }
 
   .img-container{
-    display: flex;
-    flex-direction: flex-end;
+    position: absolute;
+    top: 14rem;
+    right: 2rem;
+    padding-left: 4rem;
+  }
+
+  .img-container img{
     width: 13.75rem;
     height: 18.83794rem;
+  }
+
+  .drug-img-b img{
+    width: 17.5625rem;
+    height: 16.125rem;    
+    padding-top: 2.38rem;
   }
