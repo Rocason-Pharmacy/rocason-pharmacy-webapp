@@ -17,16 +17,16 @@
   overflow: hidden;
 }
 .female-prorec h1 {
-  padding: 5rem 0 0 1.8rem;
+  padding: 5rem 0 0 0;
 }
 .img-and-btn{
-    /* display: inline-flex;
+    display: inline-flex;
     flex-direction: row;
-    align-items: center; */
-    display: flex;
+    align-items: center;
+    /* display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: absolute;
+    position: absolute; */
   bottom: 0;
   right: 0;
     max-width: 100%;
@@ -46,4 +46,12 @@
   font-weight: 750;
   margin-top: 20rem;
   margin-left: 1.8rem;
+}
+.male-prorec{
+    background: #F3F4F6;
+
+}
+.sexual-prorec{
+  background: #E1A1A1;
+
 }

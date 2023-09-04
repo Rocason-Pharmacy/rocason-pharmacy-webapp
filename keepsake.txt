@@ -1,3 +1,62 @@
+.prorec-container h1 {
+  color: var(--blue);
+}
+.title-prorec {
+  text-align: center;
+  padding: 8rem 0rem;
+}
+.female-prorec {
+  background: #d2e2f8;
+  border-radius: 15px;
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.female-prorec h1 {
+  padding: 5rem 0 0 0;
+}
+.img-and-btn{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute; */
+  bottom: 0;
+  right: 0;
+    max-width: 100%;
+
+}
+.img-and-btn img{
+    max-width: 100%;
+}
+
+.pro-rec-button {
+  padding: 1.5rem 3rem;
+  color: #00a551;
+  border: none;
+  border-radius: 4.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.6rem;
+  font-weight: 750;
+  margin-top: 20rem;
+  margin-left: 1.8rem;
+}
+.male-prorec{
+    background: #F3F4F6;
+
+}
+.sexual-prorec{
+  background: #E1A1A1;
+
+}
+
+
 import "./prorec.css";
 import femaleHealth from "../../assets/home/femaleHealth.png";
 import maleHealth from "../../assets/home/maleHealth.png";
