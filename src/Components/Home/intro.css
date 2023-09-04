@@ -7,14 +7,14 @@
 }
 
 .hero-top-text {
-    color: #00A551;
+    color: var(--green);
     font-size: 1.4rem;
     font-weight: 750;
     padding: 0.6rem 0 14.7rem 0;
 }
 
 .hero h1{
-    color: #FFF;
+    color: var(--white);
     padding-bottom: 3rem;
     line-height: 36px;
 }
@@ -24,7 +24,7 @@
 }
 
 .hero-bottom-text{
-    color: #FFF;
+    color: var(--white);
 }
 
 .overview-container{
@@ -45,9 +45,12 @@
 }
 
 .overview-btn {
-    color: #FFF;
+    color: var(--white);
     font-weight: 750;
     line-height: 25px;
     letter-spacing: 0.32px;
     background: var(--green);
+    border: none;
+    padding: 1.2rem 4.2rem;
+    border-radius: 4.5rem;
 }
