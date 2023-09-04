@@ -1,8 +1,12 @@
+@import url('./mobile.css');
+@import url('./desktop.css');
+
 :root {
   font-size: 62.5%;
   --blue: #2E318F;
   --white: #ffffff;
   --green:#00A551;
+  font-family: 'Avenir Next LT Pro';
 }
 
 * {
