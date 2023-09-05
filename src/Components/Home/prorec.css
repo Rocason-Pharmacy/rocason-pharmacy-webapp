@@ -5,36 +5,30 @@
   text-align: center;
   padding: 8rem 0rem;
 }
+.product-rec{
+    display: grid;
+    gap: 2rem;
+
+}
 .female-prorec {
-  background: #d2e2f8;
-  border-radius: 15px;
+  background: url(../../assets/home/femaleHealth.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 15px;
   margin: 0 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; */
 }
+
 .female-prorec h1 {
   padding: 5rem 0 0 0;
 }
-.img-and-btn{
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute; */
-  bottom: 0;
-  right: 0;
-    max-width: 100%;
 
-}
-.img-and-btn img{
-    max-width: 100%;
-}
 
 .pro-rec-button {
   padding: 1.5rem 3rem;
@@ -46,12 +40,52 @@
   font-weight: 750;
   margin-top: 20rem;
   margin-left: 1.8rem;
+  margin-bottom: 2rem;
 }
 .male-prorec{
-    background: #F3F4F6;
-
+  background: url(../../assets/home/maleHealth.png);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.sexual-prorec{
-  background: #E1A1A1;
 
+.sexual-prorec{
+  background: url(../../assets/home/sexualHealth.png);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start-chat{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2.2rem 3rem 2.2rem;
+  gap: 1.5rem;
+}
+.start-chat-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5rem;
+}
+.pharm-div{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 3rem;
+}
+.brands{
+  background: #EFF0F4;
+}
+.brands h1{
+  text-align: center;
+  color: var(--blue);
+  padding: 3rem 0rem;
+}
+.the-brands{
+  padding:0  2.2rem 3rem 2.2rem;
+}
+.the-brands img{
+  size: 0.5rem;
 }
