@@ -1,7 +1,7 @@
 .footer {
     background: var(--blue);
     color: var(--white);
-    margin-top: 3.2rem
+    /* margin-top: 3.2rem */
 }
 
 .footer h1{
