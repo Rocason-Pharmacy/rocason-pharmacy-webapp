@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import HeroBanner from '../Components/about/HeroBanner';
 
 const AboutUs: FC = () => {
