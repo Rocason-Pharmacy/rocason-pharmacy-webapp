@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
           
           <Intro/>
-          {/* <ProductCategory/> */}
+          <ProductCategory/>
           <Order />
           <ProRec/>
          
