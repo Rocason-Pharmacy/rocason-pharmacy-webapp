@@ -1,13 +1,21 @@
 @import url('./mobile.css');
 @import url('./desktop.css');
 @import url('./styles/about/HeroBanner.css');
+@font-face {
+  font-family: 'Avenir Next LT Pro'; /* Font family name */
+  src: url('./fonts/AvenirNextLTPro-Regular.otf') format('otf'),
+       url('./fonts/AvenirNextLTPro-Bold.otf') format('otf'),
+       url('./fonts/AvenirNextLTPro-BoldCn.otf') format('otf'), 
+       url('./fonts/AvenirNextLTPro-It.otf') format('otf');
+}
+
 
 :root {
   font-size: 62.5%;
   --blue: #2E318F;
   --white: #ffffff;
   --green:#00A551;
-  font-family: 'Avenir Next LT Pro';
+  font-family: 'Avenir Next LT Pro',sans-serif, serif;
 }
 
 * {
