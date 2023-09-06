@@ -1,0 +1,25 @@
+.service-hero{
+    background-image: url(../../assets/services/serviceHero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.2rem 2.2rem 1.8rem 2.2rem;
+}
+
+.service-hero h1{
+    text-align: center;
+    color: var(--white);
+    padding-bottom: 3rem;
+}
+
+.service-hero-top-text {
+    color: var(--blue);
+    font-size: 1.4rem;
+    font-weight: 750;
+    padding-bottom: 11.7rem;
+}
+
+.service-img{
+    width: 100%;
+    max-width: 289px;
+}
