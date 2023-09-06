@@ -1,10 +1,14 @@
+import React, { FC } from 'react';
+import HeroBanner from '../Components/about/HeroBanner';
+import Welcome from '../Components/about/Welcome';
 
-const AboutUs = () => {
+const AboutUs: FC = () => {
   return (
     <div>
-      
+      <HeroBanner />
+      <Welcome />
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
