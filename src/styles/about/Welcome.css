@@ -1,0 +1,150 @@
+.welcome-wrapper{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+   min-height: 100vh;
+  
+}
+.welcome-container {
+     max-width: 144rem;
+    margin: 0 auto;
+    gap:30px;
+    padding: 163px 0 200px 85px;
+}
+
+.welcome-context h4{
+    color: #2E318F;
+font-size: 2rem;
+font-weight: 750;
+margin-bottom: 10px;
+}
+.welcome-context h2{
+   color: #00A551;
+font-size: 4rem;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.welcome-border{
+width: 180px;
+height: 5px;
+background: #043CAA;
+margin-bottom: 50px;
+}
+
+.welcome-context p{
+    color: rgba(35, 31, 32, 0.90);
+font-size: 2.4rem;
+font-weight: 400;
+line-height: 35px;
+max-width: 604px;
+}
+.pharmacy-image{
+   position: relative;
+}
+.pharmacy-image img{
+    object-fit: cover;
+    
+}
+.pharmacy-hrs-card{
+    position: absolute;
+    bottom: -500px;
+    right: 190px;
+    width: 500px;
+    border-radius: 15px;
+background: #2E318F;
+color: #fff;
+padding: 83px 37px 44px;
+}
+.hours-text{
+    font-size: 4rem;
+    padding-bottom: 58px;
+}
+.pharmacy-hrs-card .pharmacy-hrs p{
+    font-size: 2.4rem;
+
+}
+.pharmacy-hrs{
+    display: flex;
+    flex-direction: column;
+   gap:30px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px) {
+    .welcome-container {
+    padding: 163px 0 200px 60px;
+}
+.welcome-context p{
+font-size: 2rem;
+line-height: 30px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome-container {
+    padding: 113px 50px 200px 60px;
+    flex-direction: column;
+    gap:60px;
+}
+.welcome-context p{
+max-width: 100%;
+}
+.pharmacy-image img{
+   width: 100%;
+    max-height: 558px;
+   border-radius: 15px;
+}
+.pharmacy-hrs-card{
+    bottom: -400px;
+    right: -50px;
+    border-radius: 15px;
+padding: 50px 22px 27px 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-container {
+    padding: 80px 22.5px 200px;
+}
+.welcome-context h4{
+font-size: 1.6rem;
+font-weight: 750;
+margin-bottom: 18px;
+}
+.welcome-context h2{
+font-size: 3.2rem;
+margin-bottom: 20px;
+}
+.welcome-border{
+width: 140px;
+}
+.welcome-context p{
+font-size: 1.6rem;
+line-height: 26px;
+}
+
+.pharmacy-image img{
+   width: 100%;
+    max-height: 488px;
+   border-radius: 15px;
+}
+.pharmacy-hrs-card{
+    bottom: -300px;
+    right: -22.5px;
+      width: 310px;
+padding: 50px 22px 27px 30px;
+}
+.hours-text{
+    font-size: 3.2rem;
+    padding-bottom: 24px;
+}
+.pharmacy-hrs-card .pharmacy-hrs p{
+    font-size: 1.6rem;
+}
+.pharmacy-hrs{
+   gap:20px;
+}
+
+}
