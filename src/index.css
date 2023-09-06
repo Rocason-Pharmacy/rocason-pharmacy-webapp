@@ -46,3 +46,7 @@ p, li{
 button{
   cursor: pointer;
 }
+.flex-btw{
+  display: flex;
+  justify-content: space-between;
+}
