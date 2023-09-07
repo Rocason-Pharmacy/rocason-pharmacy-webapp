@@ -5,7 +5,7 @@ import Hospital from '../../assets/services/hospital-bed 1.png'
 import Lotion from '../../assets/services/lotion 1.png'
 import Prescription from '../../assets/services/medical-prescription 1.png'
 import Therapy from '../../assets/services/pharmacist 1.png'
-import '../Services/serviceCard.css'
+import '../../styles/services/serviceCard.css'
 const ServiceCards = () => {
    
   return (

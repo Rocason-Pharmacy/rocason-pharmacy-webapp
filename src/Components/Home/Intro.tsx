@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import '../Home/intro.css'
+import '../../styles/home/intro.css'
 
 const Intro = () => {
   return (

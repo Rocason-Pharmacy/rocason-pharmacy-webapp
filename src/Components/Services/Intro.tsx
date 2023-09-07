@@ -1,4 +1,4 @@
-import '../Services/intro.css'
+import '../../styles/services/intro.css'
 import HeroImg from '../../assets/services/serviceHeroImg.png'
 const Intro = () => {
   return (

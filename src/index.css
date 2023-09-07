@@ -1,5 +1,4 @@
-@import url('./mobile.css');
-@import url('./desktop.css');
+@import url('./styles/home');
 @import url('./styles/about/HeroBanner.css');
 @font-face {
   font-family: 'Avenir Next LT Pro'; /* Font family name */

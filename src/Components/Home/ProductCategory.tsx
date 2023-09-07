@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Pills from '../../assets/home/pills.png'
 import Wellman from '../../assets/home/wellman.png'
+import '../../styles/home/productCategory.css'
 const ProductCategory = () => {
   return (
     <div>

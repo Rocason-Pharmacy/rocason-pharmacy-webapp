@@ -1,4 +1,4 @@
-import "./order.css";
+import "../../styles/home/order.css";
 import orderDrugs from '../../assets/home/orderDrugs.png'
 
 const Order = () => {

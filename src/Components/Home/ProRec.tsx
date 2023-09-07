@@ -1,4 +1,4 @@
-import "./prorec.css";
+import "../../styles/home/prorec.css";
 import { Link } from 'react-router-dom';
 import pharmacist from "../../assets/home/pharmacistHm.png";
 import fidson from "../../assets/home/fidson.png";
