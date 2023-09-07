@@ -1,4 +1,3 @@
-import React from 'react';
 import quality from '../../assets/about/quality.svg';
 import delivery from '../../assets/about/delivery.svg';
 import pickup from '../../assets/about/pickup.svg';

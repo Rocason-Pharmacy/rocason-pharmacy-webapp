@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import '../../styles/about/Welcome.css';
 import pharmacyImg from '../../assets/about/pharmacy-img.png';
 

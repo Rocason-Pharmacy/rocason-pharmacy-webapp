@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import nurse from '../../assets/about/nurse.png';
 import doctor from '../../assets/about/doctor.png';
 import '../../styles/about/MissionVision.css';
