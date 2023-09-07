@@ -1,6 +1,8 @@
-import  { FC } from 'react';
+import { FC } from 'react';
 import '../../styles/about/Welcome.css';
 import pharmacyImg from '../../assets/about/pharmacy-img.png';
+import bubble from '../../assets/about/bubble.svg';
+import smBubble from '../../assets/about/sm-bubble.svg';
 
 const Welcome: FC = () => {
   return (
@@ -60,6 +62,29 @@ const Welcome: FC = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="group-bubble">
+        <div className="top-bubble absolute">
+          <img src={bubble} alt="pharmacy-design" />
+        </div>
+        <div className="top-smbubble absolute">
+          <img src={smBubble} alt="pharmacy-design" />
+        </div>
+        <div className="left-bubble absolute">
+          <img src={bubble} alt="pharmacy-design" />
+        </div>
+        <div className="left-smbubble absolute">
+          <img src={smBubble} alt="pharmacy-design" />
+        </div>
+        <div className="bottom-bubble absolute">
+          <img src={bubble} alt="pharmacy-design" />
+        </div>
+        <div className="bottom-smbubble absolute">
+          <img src={smBubble} alt="pharmacy-design" />
+        </div>
+        <div className="middle-bubble absolute">
+          <img src={bubble} alt="pharmacy-design" />
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 .hero-banner{
-    background-image: url(../../assets/about/about-hero.webp);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url(../../assets/about/about-hero.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ font-weight: 750;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 70vh;
     gap:21px;
 }
 .hero-detail h1{
@@ -68,6 +68,7 @@ font-weight: 600;
 }
 
 .hero-detail{
+    height: 50vh;
     min-height: 30vh;
     gap:15px;  
 }

@@ -1,12 +1,11 @@
 .welcome-wrapper{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
    width: 100%;
    min-height: 100vh;
   
 }
 .welcome-container {
+    
      max-width: 144rem;
     margin: 0 auto;
     gap:30px;
@@ -37,7 +36,7 @@ margin-bottom: 50px;
 font-size: 2.4rem;
 font-weight: 400;
 line-height: 35px;
-max-width: 604px;
+max-width: 644px;
 }
 .pharmacy-image{
    position: relative;
@@ -69,6 +68,50 @@ padding: 83px 37px 44px;
     flex-direction: column;
    gap:30px;
 }
+
+/* ABSOLUTE */
+.absolute{
+    position: absolute;
+}
+.top-bubble{
+    top: 10%;
+    left: 44%;
+    z-index: -1;
+}
+.top-smbubble{
+         top: 12%;
+    left: 57%;
+    z-index: -1;
+}
+.left-bubble{
+    bottom: 13%;
+    left: 10%;
+    z-index: -1;
+}
+.left-smbubble{
+     bottom: 29%;
+    left: 12%;
+    z-index: -1;
+}
+.bottom-bubble{
+    bottom: -6%;
+    left: 38%;
+    z-index: -1;
+}
+.bottom-smbubble{
+     bottom: 11%;
+    left: 46%;
+    z-index: -1;
+}
+.middle-bubble img{
+    max-width: 96px;
+}
+.middle-bubble{
+    bottom: 21%;
+    left: 49%;
+    z-index: -1;
+}
+
 
 /* MEDIA QUERY */
 
@@ -146,5 +189,7 @@ padding: 50px 22px 27px 30px;
 .pharmacy-hrs{
    gap:20px;
 }
-
+.group-bubble{
+    display: none;
+}
 }
