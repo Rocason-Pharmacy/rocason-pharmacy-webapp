@@ -1,10 +1,12 @@
+import { FC } from 'react';
+import HeroBanner from '../Components/contact/HeroBanner';
 
-const ContactUs = () => {
+const ContactUs: FC = () => {
   return (
     <div>
-      
+      <HeroBanner />
     </div>
-  )
-}
+  );
+};
 
-export default ContactUs
+export default ContactUs;
