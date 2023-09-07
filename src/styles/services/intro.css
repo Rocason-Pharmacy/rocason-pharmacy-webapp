@@ -21,5 +21,28 @@
 
 .service-img{
     width: 100%;
-    max-width: 289px;
+    min-width: 289px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 786px) {
+    .service-hero-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-img {
+        max-width: 1036px;
+    }
+
+    .service-hero h1{
+        font-size: 4rem;
+        white-space: nowrap;
+    }
+
+    .service-hero-top-text{
+        font-size: 1.8rem;
+    }
 }
