@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import './products.css';
+import "../../styles/products//products.css";
 interface Props {
   productImg: string;
   productTitle: string;

@@ -33,6 +33,32 @@ import dayNight from "../../assets/products/cough/dayNight.png";
 import benilyn from "../../assets/products/cough/benilyn.png";
 import inhaler from "../../assets/products/cough/inhaler.png";
 import procold from "../../assets/products/cough/procold.png";
+import dopatab from "../../assets/products/antidiabetic/dopatab.png";
+import amaryl from "../../assets/products/antidiabetic/amaryl.png";
+import diovan from "../../assets/products/antidiabetic/diovan.png";
+import glucophage from "../../assets/products/antidiabetic/glucophage.png";
+import atacand from "../../assets/products/antidiabetic/atacand.png";
+import daonil from "../../assets/products/antidiabetic/daonil.png";
+import galvusmet from "../../assets/products/antidiabetic/galvusmet.png";
+import micardis from "../../assets/products/antidiabetic/micardis.png";
+import alphabetic from "../../assets/products/antidiabetic/alphabetic.png";
+import exforgeW from "../../assets/products/antihypertensive/exforgeW.png";
+import exforgeR from "../../assets/products/antihypertensive/exforgeR.png";
+import normoretic from "../../assets/products/antihypertensive/normoretic.png";
+import norvasc from "../../assets/products/antihypertensive/norvasc.png";
+import esidrex from "../../assets/products/antihypertensive/esidrex.png";
+import amplodipine from "../../assets/products/antihypertensive/amplodipine.png";
+import natrilix from "../../assets/products/antihypertensive/natrilix.png";
+import vasoprin from "../../assets/products/antihypertensive/vasoprin.png";
+import wellwomanPlus from "../../assets/products/multivit/wellwomanPlus.png";
+import wellmanOriginal from "../../assets/products/multivit/wellmanOriginal.png";
+import wellmanMax from "../../assets/products/multivit/wellmanMax.png";
+import menopace from "../../assets/products/multivit/menopace.png";
+import wellwomanMax from "../../assets/products/multivit/wellwomanMax.png";
+import wellmanProtein from "../../assets/products/multivit/wellmanProtein.png";
+import perfectil from "../../assets/products/multivit/perfectil.png";
+import pregnacareOriginal from "../../assets/products/multivit/pregnacareOriginal.png";
+import pregnacarePlus from "../../assets/products/multivit/pregnacarePlus.png";
 
 const AllProducts = () => {
   return (
@@ -247,47 +273,47 @@ const AllProducts = () => {
         <h1 className="products-title">ANTIDIABETIC</h1>
         <div className="products-cards-div">
           <ProductCard
-            productImg={cataflam}
+            productImg={dopatab}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={amaryl}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={diovan}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={glucophage}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={atacand}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={daonil}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={galvusmet}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={micardis}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={alphabetic}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
@@ -298,47 +324,47 @@ const AllProducts = () => {
         <h1 className="products-title">ANTIHYPERTENSIVE</h1>
         <div className="products-cards-div">
           <ProductCard
-            productImg={cataflam}
+            productImg={exforgeW}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={exforgeR}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={normoretic}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={norvasc}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={esidrex}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={amplodipine}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={natrilix}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={diovan}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={vasoprin}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
@@ -349,47 +375,47 @@ const AllProducts = () => {
         <h1 className="products-title">MULTIVITAMIN & SUPPLEMENT</h1>
         <div className="products-cards-div">
           <ProductCard
-            productImg={cataflam}
+            productImg={wellwomanPlus}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={wellmanOriginal}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={wellmanMax}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={menopace}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={wellwomanMax}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={wellmanProtein}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={perfectil}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={pregnacareOriginal}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
           <ProductCard
-            productImg={cataflam}
+            productImg={pregnacarePlus}
             productTitle={"gdkkk"}
             productPrice={5400}
           />
