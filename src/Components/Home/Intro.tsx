@@ -14,7 +14,7 @@ const Intro = () => {
       <div className="hero">
         <p className='hero-top-text'>Working Hours <br/> Mon - Sun : 08:AM - 9:30PM</p>
         <h1>Welcome to <br/><span className='hero-rich-text'>Rocason Pharmacy</span></h1>
-        <p className='hero-bottom-text'>Your Choice For Quality and Affordable Drugs.</p>
+        <p className='hero-bottom-text'>Your Choice For Quality <br/>and Affordable Drugs.</p>
       </div>
       <div className='offers'>
         <div>
