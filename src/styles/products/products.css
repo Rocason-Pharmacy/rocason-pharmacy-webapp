@@ -4,11 +4,10 @@
     display: flex;
     margin: 3rem 0rem;
     height: 260px;
-    width: 160px;
+    width: 150px;
     padding: 20px 10px;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .product-price{
@@ -18,7 +17,7 @@
 }
 .product-image{
     text-align: center;
-    /* margin-bottom: 6rem; */
+    overflow: hidden;
 }
 .product-title{
     margin-bottom: 2rem;
@@ -34,7 +33,6 @@
 .products-title{
     margin-left: 4rem;
     margin-top: 4rem;
-
 }
 .all-products-title{
     text-align: center;
@@ -49,5 +47,26 @@
 }
 .all-products hr{
     border: 1px solid rgba(38, 38, 38, 0.09);
-    /* margin: 0 0; */
+}
+
+
+@media screen and (min-width: 786px){
+    .empty{
+    height: 90px;
+}
+.product-card{
+    margin: 3rem 0rem;
+    height: 300px;
+    width: 200px;
+}
+.products-title{
+    margin-left: 10rem;
+    margin-top: 6rem;
+
+}
+.products-cards-div{
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin: 0 2rem 6rem 2rem;
+}
 }
