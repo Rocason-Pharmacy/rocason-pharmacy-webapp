@@ -14,8 +14,9 @@ const Intro = () => {
       <div className="hero">
         <p className='hero-top-text'>Working Hours <br/> Mon - Sun : 08:AM - 9:30PM</p>
         <h1>Welcome to <br/><span className='hero-rich-text'>Rocason Pharmacy</span></h1>
-        <p className='hero-bottom-text'>Your Choice For Quality <br/>and Affordable Drugs.</p>
+        <p className='hero-bottom-text'>Your Choice For Quality <span  className='hero-span'>and Affordable Drugs.</span></p>
       </div>
+      <div className='offers-container'>
       <div className='offers'>
         <div>
             <img src={quality} alt="Quality Products" className='offer-img' />
@@ -41,7 +42,7 @@ const Intro = () => {
           <img src={customerSupport} alt="customer support" className='offer-img'/>
           <h4>Customer Support</h4>
         </div>
-            
+      </div>
       </div>
       <div className='overview-container'>
         <div className='overview-text-container'>

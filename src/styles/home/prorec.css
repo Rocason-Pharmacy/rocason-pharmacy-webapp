@@ -106,6 +106,7 @@
 @media screen and (min-width: 786px) {
   .start-chat-container {
     display: flex;
+    justify-content: space-between;
     margin: 5rem;
   }
   .start-chat-btn {
