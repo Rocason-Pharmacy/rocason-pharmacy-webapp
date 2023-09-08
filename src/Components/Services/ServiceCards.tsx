@@ -1,14 +1,9 @@
 import CustomServiceCards from '../CustomCards/CustomServiceCards'
-import Phone from '../../assets/services/smartphone 1.png'
-import Delivery from '../../assets/services/delivery-bike 1.png'
-import Hospital from '../../assets/services/hospital-bed 1.png'
-import Lotion from '../../assets/services/lotion 1.png'
-import Prescription from '../../assets/services/medical-prescription 1.png'
-import Therapy from '../../assets/services/pharmacist 1.png'
 import Vector from '../../assets/services/Vector.svg'
 import Svg from '../../assets/services/Ellipse 1.svg'
 import Svg2 from '../../assets/services/Ellipse 2.svg'
 import '../../styles/services/serviceCard.css'
+import serviceData from '../../data/serviceData'
 const ServiceCards = () => {
    
   return (
@@ -20,13 +15,11 @@ const ServiceCards = () => {
             </div>
         </div>
       <div className='service-cards-container'>
-        <CustomServiceCards img={Phone} title={'Online Pharmacy'} desc={'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance'}/>
-        <CustomServiceCards img={Delivery} title={'Prescription Refill'} desc={'Our Dedicated Professionals Are Always Available to Assess Your Medications'}/>
-        <CustomServiceCards img={Hospital} title={'Skincare products'} desc={'We also provide Skincare products, cosmetics and toiletries.'}/>
-        <CustomServiceCards img={Lotion} title={'Medical & Surgical Equipment Supplies '} desc={'We Provide access to Ethical, Rare, Orphan Medications including Health Supplements, and other selected items.'}/>
-        <CustomServiceCards img={Prescription} title={'Quick Delivery Nationwide'} desc={'Swift delivery to your door. Convenience and care, anytime, anywhere'}/>
-        <CustomServiceCards img={Therapy} title={'Counseling'} desc={'We provide professional information and counselling and drugs and medication, ensuring proper use of medication.'}/>
-       
+        {serviceData.map((data, index) => (
+            <div key={index}>
+                <CustomServiceCards img={data.img} title={data.title} desc={data.desc}/>
+            </div>
+        ))}
       </div>
       <div className='svg-container'>
         <img src={Vector} alt="" />
