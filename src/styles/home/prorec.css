@@ -5,30 +5,20 @@
   text-align: center;
   padding: 8rem 0rem;
 }
-.product-rec{
-    display: grid;
-    gap: 2rem;
-
+.product-rec {
+  display: grid;
+  gap: 2rem;
 }
 .female-prorec {
   background: url(../../assets/home/femaleHealth.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-radius: 15px;
-  margin: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  position: relative;
-  overflow: hidden; */
 }
 
 .female-prorec h1 {
   padding: 5rem 0 0 0;
 }
-
 
 .pro-rec-button {
   padding: 1.5rem 3rem;
@@ -42,50 +32,105 @@
   margin-left: 1.8rem;
   margin-bottom: 2rem;
 }
-.male-prorec{
+.male-prorec {
   background: url(../../assets/home/maleHealth.png);
   background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.sexual-prorec{
+.sexual-prorec {
   background: url(../../assets/home/sexualHealth.png);
   background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.start-chat{
+.start-chat {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 5rem 2.2rem 3rem 2.2rem;
   gap: 1.5rem;
 }
-.start-chat-btn{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 5rem;
-}
-.pharm-div{
+.start-chat-btn {
   display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
-.brands{
-  background: #EFF0F4;
+.pharm-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
-.brands h1{
+.brands {
+  background: #eff0f4;
+  padding: 4rem 2rem;
+}
+.brands h1 {
   text-align: center;
   color: var(--blue);
-  padding: 3rem 0rem;
+  padding-bottom: 4rem;
 }
-.the-brands{
-  padding:0  2.2rem 3rem 2.2rem;
+.dektop-brands{
+  display: none;
 }
-.the-brands img{
-  size: 0.5rem;
+.mobile-brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-seg1 {
+  display: flex;
+  justify-content: space-around;  
+}
+.brand-seg2 {
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.dgf-img {
+  max-width: 180px;
+}
+@media screen and (min-width: 600px){
+ .mobile-brands{
+    display: none;
+  }
+  .dektop-brands{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 786px) {
+  .start-chat-container {
+    display: flex;
+    margin: 5rem;
+  }
+  .start-chat-btn {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .start-chat {
+    display: grid;
+    text-align: left;
+    padding: 4rem 0 4rem 0;
+  }
+
+  .pharm-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 0;
+  }
+  .mobile-brands{
+    display: none;
+  }
+  .dektop-brands{
+    display: flex;
+    justify-content: space-around;
+  }
+  
 }

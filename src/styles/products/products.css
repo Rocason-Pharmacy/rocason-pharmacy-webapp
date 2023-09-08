@@ -17,7 +17,8 @@
 }
 .product-image{
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+    max-width: 170px;
 }
 .product-title{
     margin-bottom: 2rem;
