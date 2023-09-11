@@ -17,7 +17,7 @@ const ProductCard: FC<Props> = ({ productImg, productTitle, productPrice }) => {
       <div className="product-details">
         <p className="product-title">{productTitle}</p>
         <div className="product-sales flex-btw">
-          <p>₦{productPrice}</p>
+          <p>₦{productPrice}.00</p>
           <a
             href="https://wa.me/+2348109970175"
             target="_blank"
