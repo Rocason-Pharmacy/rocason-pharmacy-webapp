@@ -51,7 +51,7 @@ const Intro = () => {
               & we bring health & wellness to your doorstep.
           </h2>
           <p className='overview-text'>Rocason Pharmacy is a Pharmaceutical company which specialises in providing access to Orphan drugs, 
-              Ethical Products, rare medications in various therapeutic areas. Also, we offer high quality 
+              Ethical Products, rare medications in various therapeutic areas.<br/><br/> Also, we offer high quality 
               food supplements for overall well-being meeting the highest standard for safety, potency and efficacy. 
               Additionally, We offer quick delivery service to your doorstep nationwide.
           </p>

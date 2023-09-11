@@ -104,11 +104,14 @@
     }
 
     .overview-text{
-        max-width: 570px;
+        max-width: 405px;
     }
 
     .overview-text-container{
         width: 50%;
+    }
+    .overview-img{
+        max-width: 605px;
     }
 
     .offer-img{
@@ -140,9 +143,3 @@
     }
 }  
 
-/* @media (min-width: 1110px){
-    .offers{
-        max-width: 968px;
-        top:45.3%;
-    }
-}  */
