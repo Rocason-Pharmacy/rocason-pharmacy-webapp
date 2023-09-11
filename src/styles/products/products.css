@@ -42,6 +42,7 @@ height: 1px;
 
 }
 
+/* MEDIA QUERY */
 @media screen and (max-width: 1200px){
     .products-card{
     display: grid;
