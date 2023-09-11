@@ -52,7 +52,6 @@ font-size: 24px;
      width: 190px;
 }
 }
-
 @media screen and (max-width: 786px){
      .border-line{
     display: none;
@@ -70,7 +69,9 @@ width: 330px;
 .product-header{
      margin-bottom: 5rem;
 }
-.all-product-link a{
+}
+@media screen and (max-width: 446px){
+    .all-product-link a{
     border-bottom: 1px solid #2E318F;
 }
 }
