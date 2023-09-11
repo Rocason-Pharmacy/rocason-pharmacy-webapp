@@ -121,6 +121,10 @@
         display: none;
     }
 
+    .hidden-mobile{
+        display: block;
+    }
+
     .footer-text{
         font-size: 2rem;
         
