@@ -37,7 +37,7 @@ justify-content: center;
 gap: 5px;
 color: #2E318F;
 font-size: 24px;
-border-bottom: 1px solid #2E318F;
+
 }
 
 /* MEDIA QUERY */
@@ -69,5 +69,8 @@ width: 330px;
 }
 .product-header{
      margin-bottom: 5rem;
+}
+.all-product-link a{
+    border-bottom: 1px solid #2E318F;
 }
 }
