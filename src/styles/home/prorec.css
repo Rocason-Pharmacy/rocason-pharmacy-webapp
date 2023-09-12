@@ -118,7 +118,6 @@ font-weight: 750;
 }
 
 
-
 .start-chat {
   display: grid;
   text-align: center;
@@ -213,3 +212,115 @@ font-size: 24px;
   }
   
 }
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) {
+  .recommendation-wrapper {
+    padding: 14rem 0 3rem;
+}
+ .male-health {
+    padding-left: 20px;
+  }
+  .recommendation-container h2 {
+    font-size: 4rem;
+}
+.female-health img{
+  width: 201px;
+height: 316px;
+}
+.male-health img{
+  width: 350px;
+height: 320px;
+
+}
+.sex-health img{
+  width: 332px;
+height: 252px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .recommendation-wrapper {
+    padding: 10rem 0 3rem;
+}
+  .recommendation-wrapper h1 {
+    font-size: 3.6rem;
+}
+.recommendation-container h2 {
+    font-size: 3.6rem;
+}
+.male-health img {
+    right: 0px !important;
+}
+.male-health {
+    padding-left: 30px;
+    height: 458px;
+}
+.female-health {
+    width: 30%;
+    height: 380px;
+}
+.sex-health {
+    height: 380px;
+    padding-left: 20px;
+}
+.sex-health img {
+    width: 262px;
+    height: 242px;
+}
+.male-health img {
+    width: 225px;
+    height: 288px;
+}
+.female-health img {
+    width: 201px;
+    height: 257px;
+}
+.health-btn {
+    width: 160px;
+    height: 59px;
+}
+}
+@media screen and (max-width: 786px) {
+   .recommendation-wrapper {
+    padding: 10rem 2rem 3rem;
+    overflow-x: hidden;
+}
+  .recommendation-container h2{
+        max-width: 246px;
+  }
+  .recommendation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.female-health {
+    width: 100%;
+    height: 369px;
+}
+.female-health img {
+    width: 221px;
+    height: 291px;
+}
+.male-health {
+    width: 100%;
+    height: 370px;
+}
+.male-health img {
+    width: 275px;
+    height: 245px;
+}
+.sex-health {
+    width: 100%;
+    height: 370px;
+}
+.sex-health img {
+    width: 300px;
+    height: 249px;
+}
+
+}
+
+
+

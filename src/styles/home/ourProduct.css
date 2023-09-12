@@ -12,7 +12,7 @@
 }
 
 .border-line{
-    width: 390px;
+    width: 375px;
     height: 5px;
     background: #00A551;
 
@@ -43,7 +43,7 @@ font-size: 24px;
 /* MEDIA QUERY */
 @media screen and (max-width: 1200px){
     .border-line{
-    width: 300px;
+    width: 290px;
 }
 }
 

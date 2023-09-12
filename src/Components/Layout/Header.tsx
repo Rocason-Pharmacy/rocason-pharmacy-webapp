@@ -15,9 +15,12 @@ const Header = () => {
   };
   return (
     <nav className="navbar">
-      <NavLink to="/">
-        <img src={Logo} alt="rocason-logo" />
-      </NavLink>
+      <div className="logo-img">
+        <NavLink to="/">
+          <img src={Logo} alt="rocason-logo" />
+        </NavLink>
+      </div>
+
       <div className="nav-links">
         <ul className="desktop-nav">
           <li>
@@ -36,10 +39,12 @@ const Header = () => {
 
         <span className="header-contact">
           <FaPhone />
-          <a href="https://wa.me/+2348038569395"
+          <a
+            href="https://wa.me/+2348038569395"
             target="_blank"
-            rel="noopener noreferrer">
-              +234 803 856 9395
+            rel="noopener noreferrer"
+          >
+            +234 803 856 9395
           </a>
         </span>
       </div>

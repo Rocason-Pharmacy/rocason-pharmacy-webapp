@@ -143,13 +143,16 @@ font-weight: 750;
   }
 .show-menu ul{
   display: flex;
+  align-items: flex-start;
     flex-direction: column;
     gap: 30px;
 }
   .close-btn{
     display: flex;
+    padding: 3px;
+    background-color: #00A551;
     align-self: flex-end;
-    padding-bottom: 10px;
+    margin-bottom: 50px;
   }
   .close{
     width: 30px;
@@ -169,5 +172,8 @@ font-weight: 750;
 }
 .navbar {   
     padding: 0 23px 0;
+}
+.logo-img{
+z-index: 1000;
 }
 }
