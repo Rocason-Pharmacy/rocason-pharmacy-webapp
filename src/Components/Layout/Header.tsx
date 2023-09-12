@@ -1,14 +1,9 @@
 import '../Layout/header.css';
 import Logo from '../../assets/logo.png';
-import CloseBtn from '../../assets/home/close.png';
 import { FaPhone } from 'react-icons/fa';
-import { IoMdMenu } from 'react-icons/io';
-import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-  // const [isNavOpen, getIsNavOpen] = useState(false);
-
   return (
     <nav className="navbar">
       <NavLink to="/">
