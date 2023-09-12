@@ -5,7 +5,14 @@
   background-color: #fff;
   height: 95px;
   padding: 0 20px 0 86px; 
+  position: sticky;
+  top: 0;
 }
+
+.nav-links{
+display: flex;
+}
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -20,6 +27,7 @@ font-weight: 750;
   display: inline-block;
   position: relative;
 }
+
 .navbar ul li a::after {
   content: '';
   position: absolute;
@@ -32,7 +40,8 @@ font-weight: 750;
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
-.navbar ul li a:hover::after {
+
+.navbar ul li a:not(.active):hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -49,9 +58,113 @@ font-weight: 750;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .navbar ul li a.active {
   border-bottom: 2.5px solid var(--green);
-  /* padding-bottom: 4px; */
+}
+
+.mobile-menu{
+  display: none;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) {
+  .header-contact {
+    margin-left: 10px;
+}
+.navbar ul {
+    gap: 40px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0 20px 0 56px;
+}
+.navbar ul {
+    gap: 20px;
+}
+.navbar ul li a {
+  font-size: 1.6rem;
+}
+.header-contact {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    width: 172px;
+    height: 40px;
+    gap: 5px;
+}
+}
+
+@media screen and (max-width: 786px) {
+  .header-contact {
+    margin-left: 0px;
+}
+  .nav-links ul {
+    display: none;
+    list-style: none;
+}
+.mobile-menu{
+  display: inline-block;
+}
+ .show-menu {
+    display: block;
+    background-image: url(../../assets/menuBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 30px;
+    z-index: 100;
+    padding-right: 35px;
+    padding-left: 40px;
+  }
+  
+  .mobile-nav li{
+    list-style: none;
+    padding: 10px;
+    color:#fff;
+    z-index: 7;
+    text-align: start; 
+  }
+.show-menu ul{
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+  .close-btn{
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 10px;
+  }
+  .close{
+    width: 30px;
+  }
+
+  .hide-menu{
+    display: none;
+  }
+
+  .desktop-nav{
+    display: none;
+  }
+.hamburger {
+    display: block;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.navbar {   
+    padding: 0 23px 0;
+}
 }
