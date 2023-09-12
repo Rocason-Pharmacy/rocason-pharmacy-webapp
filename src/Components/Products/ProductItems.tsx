@@ -5,7 +5,7 @@ import panadolExtra from '../../assets/products/analgesics/panadolExtra.png';
 import nurofen from '../../assets/products/analgesics/nurofen.png';
 import panadol from '../../assets/products/analgesics/panadol.png';
 import emcap from '../../assets/products/analgesics/emcap.png';
-import volfast from '../../assets/products/analgesics/volfast.png';
+import volfast from '../../assets/products/antimalaria/lonart.png';
 import clofenac from '../../assets/products/analgesics/clofenac.png';
 import cataflam from '../../assets/products/analgesics/cataflam.png';
 // import artequinAdult from '../../assets/products/antimalaria/artequinAdult.png';
