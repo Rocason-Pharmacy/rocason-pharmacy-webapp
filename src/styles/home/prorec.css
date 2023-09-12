@@ -107,7 +107,7 @@
   .start-chat-container {
     display: flex;
     justify-content: space-between;
-    margin: 5rem;
+    padding: 100px 78px 71px;
   }
   .start-chat-btn {
     justify-content: flex-start;
@@ -118,6 +118,11 @@
     display: grid;
     text-align: left;
     padding: 4rem 0 4rem 0;
+    max-width: 612px;
+  }
+  .start-chat p{
+    color: #231F20;
+font-size: 24px;
   }
 
   .pharm-div {

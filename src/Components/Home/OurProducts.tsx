@@ -1,4 +1,3 @@
-import '../../styles/home/ourProduct.css';
 import ProductCard from '../Products/ProductCard';
 import nurofen from '../../assets/products/analgesics/nurofen.png';
 import panadol from '../../assets/products/analgesics/panadol.png';
