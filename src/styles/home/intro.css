@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0.6rem 0 28.9rem 2.2rem;
+    height: calc(100vh - 95px);
 }
 
 .hero-top-text {
