@@ -45,7 +45,9 @@ font-weight: 750;
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
+.hide-menu{
+  display: none;
+}
 .header-contact{
   margin-left: 80px;
     color: #FFF;
