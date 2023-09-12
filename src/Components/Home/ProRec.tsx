@@ -1,41 +1,57 @@
-import "../../styles/home/prorec.css";
+import '../../styles/home/prorec.css';
 import { Link } from 'react-router-dom';
-import pharmacist from "../../assets/home/pharmacistHm.png";
-import fidson from "../../assets/home/fidson.png";
-import juhel from "../../assets/home/juhel.png";
-import emzor from "../../assets/home/emzor.png";
-import gsk from "../../assets/home/gsk.png";
-import dgf from "../../assets/home/dgf.png";
+import pharmacist from '../../assets/home/pharmacistHm.png';
+import fidson from '../../assets/home/fidson.png';
+import juhel from '../../assets/home/juhel.png';
+import emzor from '../../assets/home/emzor.png';
+import gsk from '../../assets/home/gsk.png';
+import dgf from '../../assets/home/dgf.png';
+import femaleSex from '../../assets/home/female-sex.png';
+import healthSex from '../../assets/home/health-sex.png';
+import maleSex from '../../assets/home/male-sex.png';
 
 const ProRec = () => {
   return (
     <>
-      <div className="prorec-container">
-        <h1 className="title-prorec">
-          Product <br />
-          Recommendation
-        </h1>
-        <div className="product-rec">
-          <div className="female-prorec">
-            <h1>Female Health</h1>
-            <div className="img-and-btn">
-              <button className="pro-rec-button">View</button>
+      <div className="recommendation-wrapper">
+        <h1>Product Recommendation</h1>
+        <div className="recommendation-container">
+          <div className="female-health">
+            <div className="health-container flex-around">
+              <h2>Female Health</h2>
+              <div className="female-hlt-btn">
+                <a href="/products" className="health-btn">
+                  view
+                </a>
+              </div>
             </div>
+            <img src={femaleSex} alt="female-sex" />
           </div>
-          <div className="female-prorec male-prorec">
-            <h1>Male Health</h1>
-            <div className="img-and-btn">
-              <button className="pro-rec-button">View</button>
+          <div className="male-health">
+            <div className="health-container flex-around">
+              <h2>Male Health</h2>
+              <div className="male-hlt-btn">
+                <a href="#" className="health-btn">
+                  view
+                </a>
+              </div>
             </div>
+            <img src={maleSex} alt="male-sex" />
           </div>
-          <div className="female-prorec sexual-prorec">
-            <h1>Sexual Health</h1>
-            <div className="img-and-btn">
-              <button className="pro-rec-button">View</button>
+          <div className="sex-health">
+            <div className="health-container flex-around">
+              <h2>Sexual Health</h2>
+              <div className="sex-hlt-btn">
+                <a href="#" className="health-btn">
+                  view
+                </a>
+              </div>
             </div>
+            <img src={healthSex} alt="health-sex" />
           </div>
         </div>
       </div>
+
       <div className="start-chat-container">
         <div>
           <div className="start-chat">
@@ -69,11 +85,11 @@ const ProRec = () => {
           </div>
         </div>
         <div className="dektop-brands">
-            <img src={fidson} alt="" />
-            <img src={juhel} alt="" />
-            <img src={emzor} alt="" />
-            <img src={gsk} alt="" />
-            <img src={dgf} alt="" className="dgf-img" />
+          <img src={fidson} alt="" />
+          <img src={juhel} alt="" />
+          <img src={emzor} alt="" />
+          <img src={gsk} alt="" />
+          <img src={dgf} alt="" className="dgf-img" />
         </div>
       </div>
     </>
