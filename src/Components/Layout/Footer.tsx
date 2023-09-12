@@ -46,13 +46,31 @@ const Footer = () => {
         <ul className="links">
           <li className="footer-header">Services</li>
           <NavLink to="/investment" className="footer-links">
-            <li className="links-nav">Delivery</li>
+          <a
+            href="https://wa.me/+2348109970175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              <li className="links-nav">Delivery</li>
+            </a>
           </NavLink>
           <NavLink to="/support" className="footer-links">
-            <li className="links-nav">Purchase</li>
+          <a
+            href="https://wa.me/+2348109970175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              <li className="links-nav">Purchase</li>
+            </a>
           </NavLink>
           <NavLink to="/taxation" className="footer-links">
-            <li className="links-nav">Consult Specialist</li>
+          <a
+            href="https://wa.me/+2348109970175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              <li className="links-nav">Consult Specialist</li>
+            </a>
           </NavLink>
         </ul>
       </div>
@@ -131,13 +149,31 @@ const Footer = () => {
           <ul className="links">
             <li className="footer-header">Services</li>
             <NavLink to="/investment" className="footer-links">
+            <a
+            href="https://wa.me/+2348109970175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
               <li className="links-nav">Delivery</li>
+            </a>
             </NavLink>
             <NavLink to="/support" className="footer-links">
+            <a
+            href="https://wa.me/+2348109970175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
               <li className="links-nav">Purchase</li>
+            </a>
             </NavLink>
             <NavLink to="/taxation" className="footer-links">
+            <a
+            href="https://wa.me/+2348109970175"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
               <li className="links-nav">Consult Specialist</li>
+            </a>
             </NavLink>
           </ul>
         </div>
