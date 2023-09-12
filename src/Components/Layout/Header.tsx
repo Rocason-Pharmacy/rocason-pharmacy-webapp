@@ -36,7 +36,11 @@ const Header = () => {
 
         <span className="header-contact">
           <FaPhone />
-          <a href="tel:01623 590463">+234 803 856 9395</a>
+          <a href="https://wa.me/+2348038569395"
+            target="_blank"
+            rel="noopener noreferrer">
+              +234 803 856 9395
+          </a>
         </span>
       </div>
 
