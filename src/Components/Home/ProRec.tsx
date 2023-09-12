@@ -1,5 +1,4 @@
 import "../../styles/home/prorec.css";
-import { Link } from 'react-router-dom';
 import pharmacist from "../../assets/home/pharmacistHm.png";
 import fidson from "../../assets/home/fidson.png";
 import juhel from "../../assets/home/juhel.png";
@@ -46,9 +45,12 @@ const ProRec = () => {
             </p>
           </div>
           <div className="start-chat-btn">
-            <Link to="/whatsapp">
+          <a 
+          href="https://wa.me/+2348038569395"
+          target="_blank"
+          rel="noopener noreferrer">
               <button className="overview-btn">Start Chat</button>
-            </Link>
+          </a>
           </div>
         </div>
         <div className="pharm-div">
