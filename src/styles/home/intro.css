@@ -61,7 +61,7 @@
 
 .overview-img{
     width: 100%;
-    max-width: 410px;
+    max-width: 510px;
 }
 
 .offers{
@@ -111,7 +111,8 @@
         width: 50%;
     }
     .overview-img{
-        max-width: 605px;
+        width: 100%;
+        max-width: 485px;
     }
 
     .offer-img{
