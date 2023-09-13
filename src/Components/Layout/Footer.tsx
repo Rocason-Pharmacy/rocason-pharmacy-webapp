@@ -91,7 +91,7 @@ const Footer = () => {
               <span className="footer-text">PHARMACY</span>
             </h1>
             <p className='footer-subtext'>
-            Your favourite online pharmacy store, your health is our priority." 
+            Your favourite online pharmacy store, your health is our priority. 
             </p>
           </div>
        </div>
