@@ -88,11 +88,13 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="copyright">
             &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-            <br/>Web design by Phasecurve Technology
+            <br/>Web design by Phasecurve Technologies
+            <br/>Privacy Policy
+            <br/>Terms & Conditions
           </p>
         
-            <p className="terms ">Privacy Policy</p>
-            <p className="terms">Terms & Conditions</p>
+            {/* <p className="terms ">Privacy Policy</p>
+            <p className="terms">Terms & Conditions</p> */}
           
         </div>
       </div>
@@ -182,10 +184,12 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="copyright">
             &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-            <br/>Web design by Phasecurve Technology
+            <br/>Web design by Phasecurve Technologies
+            <br/>Privacy Policy
+            <br/>Terms & Conditions
           </p>
-            <p className="copyright">Privacy Policy</p>
-            <p className="copyright">Terms & Conditions</p>
+            {/* <p className="copyright">Privacy Policy</p>
+            <p className="copyright">Terms & Conditions</p> */}
         </div>
       </div>
     </div>

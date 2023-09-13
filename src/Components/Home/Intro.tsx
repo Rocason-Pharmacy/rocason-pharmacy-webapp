@@ -12,7 +12,7 @@ const Intro = () => {
   return (
     <div>
       <div className="hero">
-        <p className='hero-top-text'>Working Hours <br/> Mon - Sun : 08:00AM - 9:30PM</p>
+        <p className='hero-top-text'>Working Hours <br/> Mon - Sun : 08:00 AM - 9:30 PM</p>
         <h1>Welcome to <br/><span className='hero-rich-text'>Rocason Pharmacy</span></h1>
         <p className='hero-bottom-text'>Your Choice For Quality <span  className='hero-span'>and Affordable Drugs.</span></p>
       </div>

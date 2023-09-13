@@ -13,17 +13,17 @@ const Welcome: FC = () => {
           <h2>Rocason Pharmacy</h2>
           <div className="welcome-border"></div>
           <p>
-            We specialize in providing access to Orphan drugs, Ethical Products,
+            We specialize in providing access to orphan drugs, ethical Products,
             rare medications in various therapeutic areas. Also, we offer high
             quality food supplements for overall well-being meeting the highest
             standard for safety, potency and efficacy. Additionally, We offer
             quick delivery service to your doorstep nationwide.
             <br /> Our drive as an organisation is to ensure that quality and
-            effective Pharmaceutical Products and services gets to the right
-            individuals across the Nation eliciting the purpose of helping
-            people live a healthy life.Our drive as an organisation is to ensure
-            that quality and effective Pharmaceutical Products and services gets
-            to the right individuals across the Nation eliciting the purpose of
+            effective pharmaceutical products and services gets to the right
+            individuals across the nation eliciting the purpose of helping
+            people live a healthy life. Our drive as an organisation is to ensure
+            that quality and effective pharmaceutical products and services gets
+            to the right individuals across the nation eliciting the purpose of
             helping people live a healthy life.
           </p>
         </div>
