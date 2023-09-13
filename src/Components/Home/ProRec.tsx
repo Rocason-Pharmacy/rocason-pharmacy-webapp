@@ -9,6 +9,7 @@ import dgf from '../../assets/home/dgf.png';
 import femaleSex from '../../assets/home/female-sex.png';
 import healthSex from '../../assets/home/health-sex.png';
 import maleSex from '../../assets/home/male-sex.png';
+import { Link } from 'react-router-dom';
 
 const ProRec = () => {
   return (
@@ -20,9 +21,9 @@ const ProRec = () => {
             <div className="health-container flex-around">
               <h2>Female Health</h2>
               <div className="female-hlt-btn">
-                <a href="/products" className="health-btn">
+                <Link to="/products#multivitamin" className="health-btn">
                   view
-                </a>
+                </Link>
               </div>
             </div>
             <img src={femaleSex} alt="female-sex" />
@@ -31,9 +32,9 @@ const ProRec = () => {
             <div className="health-container flex-around">
               <h2>Male Health</h2>
               <div className="male-hlt-btn">
-                <a href="#" className="health-btn">
+                <Link to="/products#multivitamin" className="health-btn">
                   view
-                </a>
+                </Link>
               </div>
             </div>
             <img src={maleSex} alt="male-sex" />
@@ -42,9 +43,9 @@ const ProRec = () => {
             <div className="health-container flex-around">
               <h2>Sexual Health</h2>
               <div className="sex-hlt-btn">
-                <a href="#" className="health-btn">
+                <Link to="/products#multivitamin" className="health-btn">
                   view
-                </a>
+                </Link>
               </div>
             </div>
             <img src={healthSex} alt="health-sex" />

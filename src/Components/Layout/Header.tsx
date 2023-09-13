@@ -27,10 +27,10 @@ const Header = () => {
             <NavLink to="/about">About Us</NavLink>
           </li>
           <li>
-            <NavLink to="/service">Services</NavLink>
+            <NavLink to="/services">Services</NavLink>
           </li>
           <li>
-            <NavLink to="/product">Products</NavLink>
+            <NavLink to="/products">Products</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact Us</NavLink>
@@ -67,10 +67,10 @@ const Header = () => {
           <NavLink to="/about">
             <li onClick={removeOpen}>About Us</li>
           </NavLink>
-          <NavLink to="/service">
+          <NavLink to="/services">
             <li onClick={removeOpen}>Services</li>
           </NavLink>
-          <NavLink to="/product">
+          <NavLink to="/products">
             <li onClick={removeOpen}>Products</li>
           </NavLink>
           <NavLink to="/contact">

@@ -7,18 +7,18 @@ import Products from './pages/Products';
 import ContactUs from './pages/ContactUs';
 import Header from './Components/Layout/Header';
 import Footer from './Components/Layout/Footer';
-import ScrollToTop from './Components/ScrollToTop';
+// import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop/>
+      {/* <ScrollToTop/> */}
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/service" element={<Services />} />
-        <Route path="/product" element={<Products />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />

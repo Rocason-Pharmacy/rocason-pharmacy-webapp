@@ -1,80 +1,77 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
-import '../Layout/footer.css'
+import '../Layout/footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className='desktop-footer hidden'>
-      <div className="footer-nav">
+      <div className="desktop-footer hidden">
+        <div className="footer-nav">
           <div>
             <h1>
               ROCASON
               <br />
-              <span className='footer-text'>
-                PHARMACY
-              </span>
+              <span className="footer-text">PHARMACY</span>
             </h1>
-            <p className='footer-subtext'>
-              Your favourite online pharmacy store.
-              We offer onsite delivery and your <br/> health is our priority
+            <p className="footer-subtext">
+              Your favourite online pharmacy store. We offer onsite delivery and
+              your <br /> health is our priority
             </p>
           </div>
-        
+
           <hr className="footer-hr" />
-   
-      
-      <div className="footer-info">
-        <ul className="links">
-          <li className="footer-header">Quick Links</li>
-          <NavLink to="/" className="footer-links">
-            <li className="links-nav">Home</li>
-          </NavLink>
-          <NavLink to="/about" className="footer-links">
-            <li className="links-nav">About Us</li>
-          </NavLink>
-          <NavLink to="/product" className="footer-links">
-            <li className="links-nav">Products</li>
-          </NavLink>
-          <NavLink to="/contact" className="footer-links">
-            <li className="links-nav">Contact Us</li>
-          </NavLink>
-        </ul>
-      </div>
-      
-      {/* footer services */}
-      <div className="footer-info">
-        <ul className="links">
-          <li className="footer-header">Services</li>
-          <NavLink to="/investment" className="footer-links">
-          <a
-            href="https://wa.me/+2348109970175"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <li className="links-nav">Delivery</li>
-            </a>
-          </NavLink>
-          <NavLink to="/support" className="footer-links">
-          <a
-            href="https://wa.me/+2348109970175"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <li className="links-nav">Purchase</li>
-            </a>
-          </NavLink>
-          <NavLink to="/taxation" className="footer-links">
-          <a
-            href="https://wa.me/+2348109970175"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <li className="links-nav">Consult Specialist</li>
-            </a>
-          </NavLink>
-        </ul>
-      </div>
-      <div >
+
+          <div className="footer-info">
+            <ul className="links">
+              <li className="footer-header">Quick Links</li>
+              <NavLink to="/" className="footer-links">
+                <li className="links-nav">Home</li>
+              </NavLink>
+              <NavLink to="/about" className="footer-links">
+                <li className="links-nav">About Us</li>
+              </NavLink>
+              <NavLink to="/products" className="footer-links">
+                <li className="links-nav">Products</li>
+              </NavLink>
+              <NavLink to="/contact" className="footer-links">
+                <li className="links-nav">Contact Us</li>
+              </NavLink>
+            </ul>
+          </div>
+
+          {/* footer services */}
+          <div className="footer-info">
+            <ul className="links">
+              <li className="footer-header">Services</li>
+              <NavLink to="/investment" className="footer-links">
+                <a
+                  href="https://wa.me/+2348109970175"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="links-nav">Delivery</li>
+                </a>
+              </NavLink>
+              <NavLink to="/support" className="footer-links">
+                <a
+                  href="https://wa.me/+2348109970175"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="links-nav">Purchase</li>
+                </a>
+              </NavLink>
+              <NavLink to="/taxation" className="footer-links">
+                <a
+                  href="https://wa.me/+2348109970175"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="links-nav">Consult Specialist</li>
+                </a>
+              </NavLink>
+            </ul>
+          </div>
+          <div>
             <ul className="links">
               <li className="footer-header">Social Media</li>
               <li className="links-nav">Facebook</li>
@@ -83,37 +80,34 @@ const Footer = () => {
               <li className="links-nav">Instagram</li>
             </ul>
           </div>
-   
-       </div>
+        </div>
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-            <br/>Web design by Phasecurve Technologies
-            <br/>Privacy Policy
-            <br/>Terms & Conditions
+            &copy; 2023. Rocason Pharmacy. All Rights Reserved. <br />
+            Web design by Phasecurve Technologies
+            <br />
+            Privacy Policy
+            <br />
+            Terms & Conditions
           </p>
-        
-            {/* <p className="terms ">Privacy Policy</p>
+
+          {/* <p className="terms ">Privacy Policy</p>
             <p className="terms">Terms & Conditions</p> */}
-          
         </div>
       </div>
 
-    
-    {/* mobile-footer */}
-      <div className='mobile-footer '>
-      <div className="footer-nav">
+      {/* mobile-footer */}
+      <div className="mobile-footer ">
+        <div className="footer-nav">
           <div>
             <h1>
               ROCASON
               <br />
-              <span className='footer-text'>
-                PHARMACY
-              </span>
+              <span className="footer-text">PHARMACY</span>
             </h1>
-            <p className='footer-subtext'>
-              Your favourite online pharmacy store.
-              We offer onsite delivery and your <br/> health is our priority
+            <p className="footer-subtext">
+              Your favourite online pharmacy store. We offer onsite delivery and
+              your <br /> health is our priority
             </p>
           </div>
           <div className="">
@@ -125,76 +119,77 @@ const Footer = () => {
               <li className="links-nav">Instagram</li>
             </ul>
           </div>
-       </div>
-       <hr className="footer-hr" />
-       <div className="footer-nav">
-        <div className="footer-info">
-          <ul className="links">
-            <li className="footer-header">Quick Links</li>
-            <NavLink to="/" className="footer-links">
-              <li className="links-nav">Home</li>
-            </NavLink>
-            <NavLink to="/about" className="footer-links">
-              <li className="links-nav">About Us</li>
-            </NavLink>
-            <NavLink to="/product" className="footer-links">
-              <li className="links-nav">Products</li>
-            </NavLink>
-            <NavLink to="/contact" className="footer-links">
-              <li className="links-nav">Contact Us</li>
-            </NavLink>
-          </ul>
         </div>
-      
-        {/* footer services */}
-        <div className="footer-info">
-          <ul className="links">
-            <li className="footer-header">Services</li>
-            <NavLink to="/investment" className="footer-links">
-            <a
-            href="https://wa.me/+2348109970175"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <li className="links-nav">Delivery</li>
-            </a>
-            </NavLink>
-            <NavLink to="/support" className="footer-links">
-            <a
-            href="https://wa.me/+2348109970175"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <li className="links-nav">Purchase</li>
-            </a>
-            </NavLink>
-            <NavLink to="/taxation" className="footer-links">
-            <a
-            href="https://wa.me/+2348109970175"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <li className="links-nav">Consult Specialist</li>
-            </a>
-            </NavLink>
-          </ul>
-        </div>
+        <hr className="footer-hr" />
+        <div className="footer-nav">
+          <div className="footer-info">
+            <ul className="links">
+              <li className="footer-header">Quick Links</li>
+              <NavLink to="/" className="footer-links">
+                <li className="links-nav">Home</li>
+              </NavLink>
+              <NavLink to="/about" className="footer-links">
+                <li className="links-nav">About Us</li>
+              </NavLink>
+              <NavLink to="/products" className="footer-links">
+                <li className="links-nav">Products</li>
+              </NavLink>
+              <NavLink to="/contact" className="footer-links">
+                <li className="links-nav">Contact Us</li>
+              </NavLink>
+            </ul>
+          </div>
+
+          {/* footer services */}
+          <div className="footer-info">
+            <ul className="links">
+              <li className="footer-header">Services</li>
+              <NavLink to="/investment" className="footer-links">
+                <a
+                  href="https://wa.me/+2348109970175"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="links-nav">Delivery</li>
+                </a>
+              </NavLink>
+              <NavLink to="/support" className="footer-links">
+                <a
+                  href="https://wa.me/+2348109970175"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="links-nav">Purchase</li>
+                </a>
+              </NavLink>
+              <NavLink to="/taxation" className="footer-links">
+                <a
+                  href="https://wa.me/+2348109970175"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <li className="links-nav">Consult Specialist</li>
+                </a>
+              </NavLink>
+            </ul>
+          </div>
         </div>
         <hr />
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-            <br/>Web design by Phasecurve Technologies
-            <br/>Privacy Policy
-            <br/>Terms & Conditions
+            &copy; 2023. Rocason Pharmacy. All Rights Reserved. <br />
+            Web design by Phasecurve Technologies
+            <br />
+            Privacy Policy
+            <br />
+            Terms & Conditions
           </p>
-            {/* <p className="copyright">Privacy Policy</p>
+          {/* <p className="copyright">Privacy Policy</p>
             <p className="copyright">Terms & Conditions</p> */}
         </div>
       </div>
     </div>
-      
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
