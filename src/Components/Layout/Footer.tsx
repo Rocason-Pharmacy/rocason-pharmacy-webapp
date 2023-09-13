@@ -15,8 +15,8 @@ const Footer = () => {
               </span>
             </h1>
             <p className='footer-subtext'>
-              Your favourite online pharmacy store.
-              We offer onsite delivery and your <br/> health is our priority
+            Your favourite online pharmacy store, your health is our priority." 
+
             </p>
           </div>
         
@@ -45,52 +45,37 @@ const Footer = () => {
       <div className="footer-info">
         <ul className="links">
           <li className="footer-header">Services</li>
-          <NavLink to="/investment" className="footer-links">
           <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
             >
               <li className="links-nav">Delivery</li>
             </a>
-          </NavLink>
-          <NavLink to="/support" className="footer-links">
           <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
             >
               <li className="links-nav">Purchase</li>
             </a>
-          </NavLink>
-          <NavLink to="/taxation" className="footer-links">
           <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
             >
               <li className="links-nav">Consult Specialist</li>
             </a>
-          </NavLink>
         </ul>
       </div>
-      <div >
-            <ul className="links">
-              <li className="footer-header">Social Media</li>
-              <li className="links-nav">Facebook</li>
-              <li className="links-nav">Twitter</li>
-              <li className="links-nav">LinkedIn</li>
-              <li className="links-nav">Instagram</li>
-            </ul>
-          </div>
+   
    
        </div>
         <div className="footer-bottom">
           <p className="copyright">
             &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
             <br/>Web design by Phasecurve Technologies
-            <br/>Privacy Policy
-            <br/>Terms & Conditions
+           
           </p>
         
             {/* <p className="terms ">Privacy Policy</p>
@@ -112,18 +97,8 @@ const Footer = () => {
               </span>
             </h1>
             <p className='footer-subtext'>
-              Your favourite online pharmacy store.
-              We offer onsite delivery and your <br/> health is our priority
+            Your favourite online pharmacy store, your health is our priority." 
             </p>
-          </div>
-          <div className="">
-            <ul className="links">
-              <li className="footer-header">Social Media</li>
-              <li className="links-nav">Facebook</li>
-              <li className="links-nav">Twitter</li>
-              <li className="links-nav">LinkedIn</li>
-              <li className="links-nav">Instagram</li>
-            </ul>
           </div>
        </div>
        <hr className="footer-hr" />
@@ -150,33 +125,30 @@ const Footer = () => {
         <div className="footer-info">
           <ul className="links">
             <li className="footer-header">Services</li>
-            <NavLink to="/investment" className="footer-links">
             <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
             >
               <li className="links-nav">Delivery</li>
             </a>
-            </NavLink>
-            <NavLink to="/support" className="footer-links">
+           
             <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
             >
               <li className="links-nav">Purchase</li>
             </a>
-            </NavLink>
-            <NavLink to="/taxation" className="footer-links">
+           
             <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
             >
               <li className="links-nav">Consult Specialist</li>
             </a>
-            </NavLink>
+            
           </ul>
         </div>
         </div>
@@ -185,8 +157,7 @@ const Footer = () => {
           <p className="copyright">
             &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
             <br/>Web design by Phasecurve Technologies
-            <br/>Privacy Policy
-            <br/>Terms & Conditions
+            
           </p>
             {/* <p className="copyright">Privacy Policy</p>
             <p className="copyright">Terms & Conditions</p> */}
