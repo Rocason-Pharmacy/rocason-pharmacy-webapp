@@ -7,11 +7,26 @@
   
 }
 .order{
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
   padding: 7rem 5rem;
+}
+.order button:hover{
+  opacity: 0.8;
+}
+.order button{
+  background-color: #ffffff99;
+  color: #00a551;
+ width: 191px;
+ height: 66px;
+  border: none;
+  border-radius: 4.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.6rem;
+  font-weight: 750;
 }
 .order-text h1 {
   text-align: center;
@@ -23,20 +38,7 @@
     text-align: center;
 
 }
-.order button:hover{
-  opacity: 0.8;
-}
-.order button{
-  background-color: #ffffff99;
-  color: #00a551;
- width: 243px;
- height: 93px;
-  border: none;
-  border-radius: 4.5rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 2.4rem;
-  font-weight: 750;
-}
+
 .ordercontainer img{
   width:100%;
   
@@ -66,5 +68,19 @@
 }
 .ordercontainer img{
   width:50%;
+}
+.order button:hover{
+  opacity: 0.8;
+}
+.order button{
+  background-color: #ffffff99;
+  color: #00a551;
+ width: 243px;
+ height: 93px;
+  border: none;
+  border-radius: 4.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2.4rem;
+  font-weight: 750;
 }
 }

@@ -48,7 +48,10 @@ const ProductCategory = () => {
                   <h3>Cold/Flu</h3>
                 </div>
                 <div>
-                  <a href="#" className="double-btn cold-btn">
+                  <a
+                    href="https://wa.me/+2348038569395"
+                    className="double-btn cold-btn"
+                  >
                     Buy Now
                   </a>
                 </div>
