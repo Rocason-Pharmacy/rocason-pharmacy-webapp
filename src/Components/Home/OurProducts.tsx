@@ -48,7 +48,7 @@ const OurProducts = () => {
           />
         </div>
         <div className="all-product-link">
-          <Link to="/product">
+          <Link to="/products">
             <span>View all</span>
             <HiOutlineArrowSmRight color="#000" />
           </Link>

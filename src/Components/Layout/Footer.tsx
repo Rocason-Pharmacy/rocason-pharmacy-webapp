@@ -1,25 +1,23 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
-import '../Layout/footer.css'
+import '../Layout/footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className='desktop-footer hidden'>
-      <div className="footer-nav">
+      <div className="desktop-footer hidden">
+        <div className="footer-nav">
           <div>
             <h1>
               ROCASON
               <br />
-              <span className='footer-text'>
-                PHARMACY
-              </span>
+              <span className="footer-text">PHARMACY</span>
             </h1>
             <p className='footer-subtext'>
             Your favourite online pharmacy store, your health is our priority." 
 
             </p>
           </div>
-        
+
           <hr className="footer-hr" />
    
       
@@ -77,24 +75,20 @@ const Footer = () => {
             <br/>Web design by Phasecurve Technologies
            
           </p>
-        
-            {/* <p className="terms ">Privacy Policy</p>
+
+          {/* <p className="terms ">Privacy Policy</p>
             <p className="terms">Terms & Conditions</p> */}
-          
         </div>
       </div>
 
-    
-    {/* mobile-footer */}
-      <div className='mobile-footer '>
-      <div className="footer-nav">
+      {/* mobile-footer */}
+      <div className="mobile-footer ">
+        <div className="footer-nav">
           <div>
             <h1>
               ROCASON
               <br />
-              <span className='footer-text'>
-                PHARMACY
-              </span>
+              <span className="footer-text">PHARMACY</span>
             </h1>
             <p className='footer-subtext'>
             Your favourite online pharmacy store, your health is our priority." 
@@ -159,13 +153,12 @@ const Footer = () => {
             <br/>Web design by Phasecurve Technologies
             
           </p>
-            {/* <p className="copyright">Privacy Policy</p>
+          {/* <p className="copyright">Privacy Policy</p>
             <p className="copyright">Terms & Conditions</p> */}
         </div>
       </div>
     </div>
-      
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

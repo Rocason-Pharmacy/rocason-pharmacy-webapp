@@ -14,7 +14,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;
 }
 
 .product-image{
-    max-width: 320px;
+    /* max-width: 320px; */
     align-self: center;
 }
 .product-details{
@@ -28,6 +28,16 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;
     color: #231F20;
 font-size: 2.4rem;
 font-weight: 500;
+}
+.product-sales a{
+     transition:0.5s ease;
+}
+.product-sales a:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.product-sales {
+    gap: 20px;
 }
 .product-sales p{
     color: #00A551;
@@ -56,5 +66,14 @@ font-weight: 750;
 .product-sales p {
     font-size: 1.6rem;
 }
-
+.product-image {
+    max-width: 154px;
+    object-fit: cover;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
+}
+
+

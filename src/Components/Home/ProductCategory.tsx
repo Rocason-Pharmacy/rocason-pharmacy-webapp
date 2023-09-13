@@ -16,7 +16,11 @@ const ProductCategory = () => {
               <p>Your Choice For Quality and Affordable Drugs.</p>
             </div>
             <div>
-              <a href="#" className="prescription-btn">
+              <a
+                href="https://wa.me/+2348038569395"
+                target="_blank"
+                className="prescription-btn"
+              >
                 Buy Now
               </a>
             </div>
@@ -29,7 +33,11 @@ const ProductCategory = () => {
                   <h3>OTC</h3>
                 </div>
                 <div>
-                  <a href="#" className="double-btn otc-btn">
+                  <a
+                    href="https://wa.me/+2348038569395"
+                    target="_blank"
+                    className="double-btn otc-btn"
+                  >
                     Buy Now
                   </a>
                 </div>
@@ -40,7 +48,10 @@ const ProductCategory = () => {
                   <h3>Cold/Flu</h3>
                 </div>
                 <div>
-                  <a href="#" className="double-btn cold-btn">
+                  <a
+                    href="https://wa.me/+2348038569395"
+                    className="double-btn cold-btn"
+                  >
                     Buy Now
                   </a>
                 </div>
@@ -52,7 +63,11 @@ const ProductCategory = () => {
                 <h3>Supplements</h3>
               </div>
               <div>
-                <a href="#" className="supplement-btn">
+                <a
+                  href="https://wa.me/+2348038569395"
+                  target="_blank"
+                  className="supplement-btn"
+                >
                   Buy Now
                 </a>
               </div>

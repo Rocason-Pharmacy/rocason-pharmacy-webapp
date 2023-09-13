@@ -19,11 +19,11 @@ const ProductCard: FC<Props> = ({ productImg, productTitle, productPrice }) => {
         <div className="product-sales flex-btw">
           <p>₦{productPrice}.00</p>
           <a
-            href="https://wa.me/+2348109970175"
+            href="https://wa.me/+2348038569395"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IoLogoWhatsapp color="green" fontSize="24px" />
+            <IoLogoWhatsapp color="green" fontSize="3rem" />
           </a>
         </div>
       </div>

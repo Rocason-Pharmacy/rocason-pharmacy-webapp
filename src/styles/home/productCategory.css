@@ -32,8 +32,8 @@ white-space: nowrap;
 }
 .prescription-btn{
   display: inline-flex;
-  width: 188px;
-  height: 89px;
+      width: 174px;
+    height: 75px;
   justify-content: center;
   align-items: center;
   border-radius: 45px;
@@ -141,8 +141,8 @@ transition: ease-in-out;
 }
 .supplement-btn{
   display: flex;
-  width: 188px;
-  height: 89px;
+      width: 174px;
+    height: 75px; 
   justify-content: center;
   align-items: center;
   border-radius: 45px;
