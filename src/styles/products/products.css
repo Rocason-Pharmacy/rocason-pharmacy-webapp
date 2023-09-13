@@ -17,6 +17,7 @@ font-weight: 700;
 }
 .product-items h3{
     color: var(--blue);
+    text-transform: uppercase;
 font-size: 4rem;
 font-weight: 700;
 padding-bottom: 50px;

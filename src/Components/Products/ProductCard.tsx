@@ -12,7 +12,7 @@ const ProductCard: FC<Props> = ({ productImg, productTitle, productPrice }) => {
   return (
     <div className="product-card">
       <div className="product-image">
-        <img src={productImg} alt="" />
+        <img src={productImg} alt="product image" />
       </div>
       <div className="product-details">
         <p className="product-title">{productTitle}</p>

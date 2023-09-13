@@ -1,370 +1,118 @@
+import productData from '../../data/productData';
 import '../../styles/products/products.css';
-import ProductItems from './ProductItems';
+import ProductCard from './ProductCard';
+// import ProductItems from './ProductItems';
 const AllProducts = () => {
   return (
     <div className="all-products">
       <div className="product-hero"></div>
       <div className="product-container">
         <h1 className="all-products-title">All Products</h1>
-        <div>
-          <ProductItems />
-        </div>
-        {/* <div className="product-items">
-          <h3 className="products-title">ANALGESICS</h3>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={advil}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={emcapExtra}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={panadolExtra}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={nurofen}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={panadol}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={emcap}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={volfast}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={clofenac}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={cataflam}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>Analgesics</h3>
+          <div className="products-card">
+            {productData.analgesics.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
+          <div className="product-items-line"></div>
         </div>
-        <hr /> */}
-        {/* <div>
-          <h1 className="products-title">ANTIMALARIA</h1>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={artequinAdult}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={coartem}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={artequinChild}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={lynsunate}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={pAlaxinTs}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={swidar}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={amatem}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={lonart}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={pAlaxin}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>Antibiotics</h3>
+          <div className="products-card">
+            {productData.antibiotic.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
+          <div className="product-items-line"></div>
         </div>
-        <hr />
-        <div>
-          <h1 className="products-title">ANTIBIOTICS</h1>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={ciprotab}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={augmentin}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={zinnat}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={zithromax}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={ciprotabTn}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={fleming}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={primpex}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={ciprotabTn}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={fleming}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>Antimalaria</h3>
+          <div className="products-card">
+            {productData.antimalaria.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
+          <div className="product-items-line"></div>
         </div>
-        <hr />
-        <div>
-          <h1 className="products-title">COUGH & COLD</h1>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={tuxilD}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={tuxilN}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={strepsils}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={loratyn}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={clarityn}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={dayNight}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={benilyn}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={inhaler}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={procold}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>COUGH & COLD</h3>
+          <div className="products-card">
+            {productData.cough.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
+          <div className="product-items-line"></div>
         </div>
-        <hr />
-        <div>
-          <h1 className="products-title">ANTIDIABETIC</h1>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={dopatab}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={amaryl}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={diovan}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={glucophage}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={atacand}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={daonil}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={galvusmet}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={micardis}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={alphabetic}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>ANTIDIABETIC</h3>
+          <div className="products-card">
+            {productData.antidiabetic.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
+          <div className="product-items-line"></div>
         </div>
-        <hr />
-        <div>
-          <h1 className="products-title">ANTIHYPERTENSIVE</h1>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={exforgeW}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={exforgeR}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={normoretic}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={norvasc}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={esidrex}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={amplodipine}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={natrilix}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={diovan}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={vasoprin}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>ANTIHYPERTENSIVE</h3>
+          <div className="products-card">
+            {productData.antihypertensive.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
+          <div className="product-items-line"></div>
         </div>
-        <hr /> */}
-        {/* <div>
-          <h1 className="products-title">MULTIVITAMIN & SUPPLEMENT</h1>
-          <div className="products-cards-div">
-            <ProductCard
-              productImg={wellwomanPlus}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={wellmanOriginal}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={wellmanMax}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={menopace}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={wellwomanMax}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={wellmanProtein}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={perfectil}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={pregnacareOriginal}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
-            <ProductCard
-              productImg={pregnacarePlus}
-              productTitle={'gdkkk'}
-              productPrice={5400}
-            />
+
+        <div className="product-items">
+          <h3>MULTIVITAMIN & SUPPLEMENT</h3>
+          <div className="products-card">
+            {productData.multivitamin.map((item, index) => (
+              <ProductCard
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
           </div>
-        </div> */}
+          {/* <div className="product-items-line"></div> */}
+        </div>
       </div>
     </div>
   );
