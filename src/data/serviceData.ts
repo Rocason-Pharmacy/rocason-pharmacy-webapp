@@ -6,12 +6,12 @@ import Prescription from '../assets/services/medical-prescription 1.png'
 import Therapy from '../assets/services/pharmacist 1.png'
 
 const serviceData = [
-    {img:Phone, title: 'Online Pharmacy', desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance'},
-    {img:Delivery, title: 'Prescription Refill', desc: 'Our Dedicated Professionals Are Always Available to Assess Your Medications'},
-    {img:Hospital, title: 'Skincare products', desc: 'We also provide Skincare products, cosmetics and toiletries.'},
-    {img:Lotion, title: 'Medical & Surgical Equipment Supplies', desc: 'We Provide access to Ethical, Rare, Orphan Medications including Health Supplements, and other selected items.'},
-    {img:Prescription, title: 'Quick Delivery Nationwide', desc: 'Swift delivery to your door. Convenience and care, anytime, anywhere'},
-    {img:Therapy, title: 'Counseling', desc: 'We provide professional information and counselling and drugs and medication, ensuring proper use of medication.'},
+    {img:Phone, title: 'Online Pharmacy', desc: 'Order and purchase your drugs online. Rocason is always available to serve you, regardless of distance.'},
+    {img:Delivery, title: 'Prescription Refill', desc: 'Our dedicated professionals are always available to assess your medications.'},
+    {img:Hospital, title: 'Skincare Products', desc: 'We also provide skincare products, cosmetics, and toiletries.'},
+    {img:Lotion, title: 'Medical & Surgical Equipment Supplies', desc: 'We provide access to ethical, rare, orphan medications, including health supplements, and other selected items'},
+    {img:Prescription, title: 'Quick Nationwide Delivery', desc: 'Swift delivery to your door. Convenience and care, anytime, anywhere'},
+    {img:Therapy, title: 'Counselling', desc: 'We provide professional information and counselling on drugs and medication, ensuring their proper use.'},
 ]
 
 export default serviceData;

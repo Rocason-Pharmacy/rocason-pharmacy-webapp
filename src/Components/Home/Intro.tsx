@@ -12,7 +12,7 @@ const Intro = () => {
   return (
     <div>
       <div className="hero">
-        <p className='hero-top-text'>Working Hours <br/> Mon - Sun : 08:AM - 9:30PM</p>
+        <p className='hero-top-text'>Working Hours <br/> Mon - Sun : 08:00AM - 9:30PM</p>
         <h1>Welcome to <br/><span className='hero-rich-text'>Rocason Pharmacy</span></h1>
         <p className='hero-bottom-text'>Your Choice For Quality <span  className='hero-span'>and Affordable Drugs.</span></p>
       </div>
@@ -50,8 +50,8 @@ const Intro = () => {
               At <span className='hero-rich-text'>Rocason Pharmacy</span>, we supply all range of medications 
               & we bring health & wellness to your doorstep.
           </h2>
-          <p className='overview-text'>Rocason Pharmacy is a Pharmaceutical company which specialises in providing access to Orphan drugs, 
-              Ethical Products, rare medications in various therapeutic areas.<br/><br/> Also, we offer high quality 
+          <p className='overview-text'>Rocason Pharmacy is a pharmaceutical company that specialises in providing access to orphan drugs, 
+              ethical products, and rare medications in various therapeutic areas.<br/> Also, we offer high quality 
               food supplements for overall well-being meeting the highest standard for safety, potency and efficacy. 
               Additionally, We offer quick delivery service to your doorstep nationwide.
           </p>

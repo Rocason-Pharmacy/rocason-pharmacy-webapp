@@ -9,18 +9,16 @@ const HeroBanner: FC = () => {
         <div className="contact-working-hour">
           <p>
             Working Hours
-            <br /> Mon – Sun : 08 AM – 09:30 PM
+            <br /> Mon – Sun : 08:00AM – 09:30 PM
           </p>
         </div>
         <div className="contact-hero-detail flex-btw">
           <div className="contact-hero-context">
             <h1>Your Feedback Matters</h1>
             <p>
-              At Rocason Pharmacy, Your Feedback Fuels Our Journey of Progress.
-              Although an Instant Reply May Not Always Be Possible, Know That
-              Your Insights Will Shape Our Path Forward. For Personalized
-              Inquiries, Don't Hesitate to Connect with Our Dedicated Customer
-              Care Team.
+            At Rocason Pharmacy, your feedback fuels our journey of progress. 
+            Although an instant reply may not always be possible, know that your insights will shape our path forward. 
+            For personalised inquiries, don't hesitate to connect with our dedicated Customer Care Team.
             </p>
           </div>
 

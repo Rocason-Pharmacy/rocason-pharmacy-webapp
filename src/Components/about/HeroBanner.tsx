@@ -8,7 +8,7 @@ const HeroBanner: FC = () => {
         <div className="working-hour">
           <p>
             Working Hours
-            <br /> Mon – Sun : 08 AM – 09:30 PM
+            <br /> Mon – Sun : 08:00AM – 09:30 PM
           </p>
         </div>
         <div className="hero-detail">
