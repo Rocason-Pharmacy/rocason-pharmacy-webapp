@@ -76,25 +76,28 @@ const ProRec = () => {
           <img src={pharmacist} alt="" />
         </div>
       </div>
-      <div className="brands">
-        <h1>Over 1000+ brands</h1>
-        <div className="mobile-brands">
-          <div className="brand-seg1">
+
+      <div className="brands-wrapper">
+        <div className="brands">
+          <h1>Over 1000+ brands</h1>
+          <div className="mobile-brands">
+            <div className="brand-seg1">
+              <img src={fidson} alt="" />
+              <img src={juhel} alt="" />
+              <img src={emzor} alt="" />
+            </div>
+            <div className="brand-seg2">
+              <img src={gsk} alt="" />
+              <img src={dgf} alt="" className="dgf-img" />
+            </div>
+          </div>
+          <div className="dektop-brands">
             <img src={fidson} alt="" />
             <img src={juhel} alt="" />
             <img src={emzor} alt="" />
-          </div>
-          <div className="brand-seg2">
             <img src={gsk} alt="" />
             <img src={dgf} alt="" className="dgf-img" />
           </div>
-        </div>
-        <div className="dektop-brands">
-          <img src={fidson} alt="" />
-          <img src={juhel} alt="" />
-          <img src={emzor} alt="" />
-          <img src={gsk} alt="" />
-          <img src={dgf} alt="" className="dgf-img" />
         </div>
       </div>
     </>

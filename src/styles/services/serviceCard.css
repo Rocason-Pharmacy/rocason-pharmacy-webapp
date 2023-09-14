@@ -1,16 +1,18 @@
 .service-container{
-    padding: 9rem 2.2rem 4.1rem 2.2rem;
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 10rem 2.5rem 5.7rem ;
 }
 .service-card-header h2{
     color: var(--green);
-    line-height: 32px;
     margin-bottom: 1rem;
+    font-size: 3rem;
 }
 
 .service-card-header hr{
     background-color: var(--blue);
     height: 5px;
-    width:65px;
+    width:90px;
     margin-bottom: 50px;
 }
 
@@ -50,6 +52,7 @@
     color: rgba(0, 0, 0, 0.75);
     text-align: center;
     line-height: 20px;
+    max-width: 342px;
 }
 
 .svg-container {
@@ -59,29 +62,41 @@
 /* MEDIA QUERIES */
 
 @media (min-width: 786px) {
+    .service-container{
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 10rem 2.9rem 12.7rem 3.5rem;
+}
     .service-card-header {
         display: flex;
         justify-content: center;
     }
+    .service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 2px 7px 15px 0px rgba(0, 0, 0, 0.25);
+    padding: 4.4rem 3.7rem;
+    max-width: 400px;
+    height: 367px;
+}
 
     .service-cards-container{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 20px;
+        gap: 100px 30px;
         align-items: center;
         flex-wrap: wrap;
     }
 
-    /* .svg-container {
-        display: block;
-        position: absolute;
-        top: 10%;
-    } */
+   .service-card-header hr{
+    margin-bottom: 100px;
 }
-
-@media (min-width: 1900px) {
-    p{
-        font-size: 2.5rem;
-    }
+.service-card-header h2{
+    font-size: 4.8rem;
+}
 }

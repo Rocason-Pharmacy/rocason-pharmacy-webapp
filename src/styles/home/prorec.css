@@ -137,8 +137,12 @@ font-weight: 750;
   margin-bottom: 3rem;
 }
 .brands {
-  background: #eff0f4;
+  max-width: 144rem;
+  margin: 0 auto;
   padding: 4rem 2rem;
+}
+.brands-wrapper{
+  background: #eff0f4;
 }
 .brands h1 {
   text-align: center;
@@ -177,6 +181,8 @@ font-weight: 750;
 }
 @media screen and (min-width: 786px) {
   .start-chat-container {
+    max-width: 144rem;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 100px 78px 71px;

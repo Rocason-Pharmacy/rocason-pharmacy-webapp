@@ -101,12 +101,22 @@
 /* Media Queries */
 
 @media (min-width: 768px) {
+    .footer-nav {
+    padding: 0px;
+}
+.footer-bottom {
+    padding: 61px 0px 0px;
+}
+    .desktop-footer{
+        max-width: 144rem;
+        margin: 0 auto;
+    }
     .mobile-footer{
         display: none;
     }
     
     .footer{
-        padding: 50px;
+        padding: 115px 111px 47px 87px;
     }
 
     .footer h1{
