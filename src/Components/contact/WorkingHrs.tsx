@@ -3,12 +3,14 @@ import { AiOutlinePhone } from 'react-icons/ai';
 import { RxEnvelopeClosed } from 'react-icons/rx';
 import { MdOutlineLocationOn } from 'react-icons/md';
 import '../../styles/contact/WorkingHrs.css';
-
+import { Fade } from 'react-reveal';
 const WorkingHrs: FC = () => {
   return (
     <div className="working-wrapper">
       <div className="working-container">
-        <h4>Rocason Pharmacy Hours</h4>
+        <Fade duration={2000}>
+          <h4>Rocason Pharmacy Hours</h4>
+        </Fade>
         <div className="working-hrs-table">
           <div className="working-days">
             <div className="working-day grey">

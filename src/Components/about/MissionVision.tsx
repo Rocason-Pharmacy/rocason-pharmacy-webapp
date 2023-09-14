@@ -2,6 +2,7 @@ import { FC } from 'react';
 import nurse from '../../assets/about/nurse.png';
 import doctor from '../../assets/about/doctor.png';
 import '../../styles/about/MissionVision.css';
+import { Fade } from 'react-reveal';
 
 const MissionVision: FC = () => {
   return (
@@ -12,7 +13,9 @@ const MissionVision: FC = () => {
             <img src={nurse} alt="pharmacist" />
           </div>
           <div className="mission-context">
-            <h4>Our mission</h4>
+            <Fade duration={2000}>
+              <h4>Our mission</h4>
+            </Fade>
             <p>
               Our mission is to provide great and efficient services in the
               pharmaceutical supply chain through innovation, professionalism,
@@ -22,7 +25,9 @@ const MissionVision: FC = () => {
         </div>
         <div className="vision flex-btw">
           <div className="vision-context">
-            <h4>Our vision</h4>
+            <Fade duration={2000}>
+              <h4>Our vision</h4>
+            </Fade>
             <p>
               Our vision is to become Africa's leading healthcare provider and
               pharmacy. We aim to improve the quality of life for people and

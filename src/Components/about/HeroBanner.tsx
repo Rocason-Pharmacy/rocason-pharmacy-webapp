@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import '../../styles/about/HeroBanner.css';
 import { useTypewriter } from 'react-simple-typewriter';
+import { Fade } from 'react-reveal';
 
 const HeroBanner: FC = () => {
   const [workingHrsText] = useTypewriter({
@@ -22,7 +23,9 @@ const HeroBanner: FC = () => {
         <div className="hero-detail">
           <h1>ABOUT US</h1>
           <div className="hero-border-line"></div>
-          <p>Your trusted community pharmacy, delivering care and wellness</p>
+          <Fade duration={2000}>
+            <p>Your trusted community pharmacy, delivering care and wellness</p>
+          </Fade>
         </div>
       </div>
     </section>

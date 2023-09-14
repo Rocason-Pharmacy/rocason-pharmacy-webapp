@@ -51,10 +51,12 @@ const OurProducts = () => {
           />
         </div>
         <div className="all-product-link">
-          <Link to="/products">
-            <span>View all</span>
-            <HiOutlineArrowSmRight color="#000" />
-          </Link>
+          <Fade duration={1500}>
+            <Link to="/products">
+              <span>View all</span>
+              <HiOutlineArrowSmRight color="#000" />
+            </Link>
+          </Fade>
         </div>
       </div>
     </div>

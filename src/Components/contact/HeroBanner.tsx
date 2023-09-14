@@ -2,6 +2,7 @@ import { FC } from 'react';
 import '../../styles/contact/HeroBanner.css';
 import heroImg from '../../assets/about/hero-contact.png';
 import { useTypewriter } from 'react-simple-typewriter';
+import { Fade } from 'react-reveal';
 
 const HeroBanner: FC = () => {
   const [workingHrsText] = useTypewriter({
@@ -22,7 +23,15 @@ const HeroBanner: FC = () => {
         </div>
         <div className="contact-hero-detail flex-btw">
           <div className="contact-hero-context">
-            <h1>Your Feedback Matters</h1>
+            <h1>
+              Your{' '}
+              <Fade duration="1500">
+                <span>Feedback </span>
+              </Fade>{' '}
+              <Fade duration="2000">
+                <span>Matters</span>
+              </Fade>
+            </h1>
             <p>
               At Rocason Pharmacy, your feedback fuels our journey of progress.
               Although an instant reply may not always be possible, know that

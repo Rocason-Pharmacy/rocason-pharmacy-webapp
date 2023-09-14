@@ -8,7 +8,7 @@ import pharmacyHrs from '../../assets/about/pharmacy-hrs.svg';
 import healthCheck from '../../assets/about/health-check.svg';
 import customerSupport from '../../assets/about/customer-support.svg';
 import { useTypewriter } from 'react-simple-typewriter';
-import { Zoom } from 'react-reveal';
+import { Fade, Zoom } from 'react-reveal';
 
 const Intro = () => {
   const [workingHrsText] = useTypewriter({
@@ -68,9 +68,12 @@ const Intro = () => {
       <div className="overview-container">
         <div className="overview-text-container">
           <h2 className="overview-header">
-            At <span className="hero-rich-text">Rocason Pharmacy</span>, we
-            supply all range of medications & we bring health & wellness to your
-            doorstep.
+            At{' '}
+            <Fade duration={2000}>
+              <span className="hero-rich-text">Rocason Pharmacy</span>
+            </Fade>
+            , we supply all range of medications & we bring health & wellness to
+            your doorstep.
           </h2>
           <p className="overview-text">
             Rocason Pharmacy is a pharmaceutical company that specialises in
