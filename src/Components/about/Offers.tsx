@@ -10,7 +10,7 @@ const Offers = () => {
   return (
     <section className="offer-wrapper">
       <div className="offer-container">
-        <h2>We Offer</h2>
+        <h2>We offer</h2>
         <div className="offer-row1 flex-btw">
           <div className="offer-quality column mobile-center">
             <div>
@@ -24,7 +24,7 @@ const Offers = () => {
               <img src={pharmacyHrs} alt="pharmacy-hrs" />
             </div>
             <h4>24hrs Pharmacist</h4>
-            <p>Consult with our Pharmacist, available online everyday</p>
+            <p>Consult with our pharmacist, available online everyday</p>
           </div>
           <div className="offer-delivery column mobile-center">
             <img src={delivery} alt="delivery" />

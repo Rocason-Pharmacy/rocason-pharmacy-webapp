@@ -13,9 +13,9 @@ const Welcome: FC = () => {
           <h2>Rocason Pharmacy</h2>
           <div className="welcome-border"></div>
           <p>
-            We specialize in providing access to orphan drugs, ethical Products,
+            We specialise in providing access to orphan drugs, ethical products,
             rare medications in various therapeutic areas. Also, we offer high
-            quality food supplements for overall well-being meeting the highest
+            quality food supplements for overall well-being, meeting the highest
             standard for safety, potency and efficacy. Additionally, We offer
             quick delivery service to your doorstep nationwide.
             <br /> Our drive as an organisation is to ensure that quality and

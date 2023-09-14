@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="footer-text">PHARMACY</span>
             </h1>
             <p className='footer-subtext'>
-            Your favourite online pharmacy store, your health is our priority." 
+            Your favourite online pharmacy store, your health is our priority.
 
             </p>
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
           <NavLink to="/about" className="footer-links">
             <li className="links-nav">About Us</li>
           </NavLink>
-          <NavLink to="/product" className="footer-links">
+          <NavLink to="/products" className="footer-links">
             <li className="links-nav">Products</li>
           </NavLink>
           <NavLink to="/contact" className="footer-links">
@@ -72,12 +72,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="copyright">
             &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-            <br/>Web design by Phasecurve Technologies
-           
+            <br/>Web design by <a href='https://phasecurve.com' target="_blank"
+            rel="noopener noreferrer">Phasecurve Technologies</a>
           </p>
-
-          {/* <p className="terms ">Privacy Policy</p>
-            <p className="terms">Terms & Conditions</p> */}
         </div>
       </div>
 
@@ -106,7 +103,7 @@ const Footer = () => {
             <NavLink to="/about" className="footer-links">
               <li className="links-nav">About Us</li>
             </NavLink>
-            <NavLink to="/product" className="footer-links">
+            <NavLink to="/products" className="footer-links">
               <li className="links-nav">Products</li>
             </NavLink>
             <NavLink to="/contact" className="footer-links">
@@ -150,11 +147,10 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="copyright">
             &copy; 2023. Rocason Pharmacy. All Rights Reserved.{" "}
-            <br/>Web design by Phasecurve Technologies
+            <br/>Web design by <a href='https://phasecurve.com' target="_blank"
+            rel="noopener noreferrer">Phasecurve Technologies</a>
             
           </p>
-          {/* <p className="copyright">Privacy Policy</p>
-            <p className="copyright">Terms & Conditions</p> */}
         </div>
       </div>
     </div>

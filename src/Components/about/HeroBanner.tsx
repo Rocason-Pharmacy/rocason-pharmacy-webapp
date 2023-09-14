@@ -14,7 +14,7 @@ const HeroBanner: FC = () => {
         <div className="hero-detail">
           <h1>ABOUT US</h1>
           <div className="hero-border-line"></div>
-          <p>Your Trusted Community Pharmacy, Delivering Care and Wellness</p>
+          <p>Your trusted community pharmacy, delivering care and wellness</p>
         </div>
       </div>
     </section>
