@@ -17,14 +17,14 @@ const Offers = () => {
               <img src={quality} alt="Quality Products" />
             </div>
             <h4>Quality Products</h4>
-            <p>We provide, quality medication of the highest standard</p>
+            <p>We provide, quality medication of the highest standard.</p>
           </div>
           <div className="offer-hrs column mobile-center">
             <div>
               <img src={pharmacyHrs} alt="pharmacy-hrs" />
             </div>
             <h4>24hrs Pharmacist</h4>
-            <p>Consult with our pharmacist, available online everyday</p>
+            <p>Consult with our pharmacist, available online every day.</p>
           </div>
           <div className="offer-delivery column mobile-center">
             <img src={delivery} alt="delivery" />
@@ -40,7 +40,7 @@ const Offers = () => {
             <img src={healthCheck} alt="health check" />
             <h4>Health Check</h4>
             <p>
-              Take advantage of some of our free routine check that we offer
+              Take advantage of some of our free routine check that we offer.
             </p>
           </div>
           <div className="pickup column mobile-center">
@@ -48,7 +48,7 @@ const Offers = () => {
             <h4>Free Pickup</h4>
             <p>
               The option to come to any of our branch to pick up your medication
-              is also available
+              is also available.
             </p>
           </div>
           <div className="customer-support column mobile-center">
@@ -56,7 +56,7 @@ const Offers = () => {
             <h4>Customer Support</h4>
             <p>
               We provide superb customer support to provide every support you
-              need
+              need.
             </p>
           </div>
         </div>

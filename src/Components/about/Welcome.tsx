@@ -14,17 +14,13 @@ const Welcome: FC = () => {
           <div className="welcome-border"></div>
           <p>
             We specialise in providing access to orphan drugs, ethical products,
-            rare medications in various therapeutic areas. Also, we offer high
-            quality food supplements for overall well-being, meeting the highest
-            standard for safety, potency and efficacy. Additionally, We offer
-            quick delivery service to your doorstep nationwide.
+            and rare medications in various therapeutic areas. Also, we offer
+            high-quality food supplements for overall well-being meeting the
+            highest standard for safety, potency, and efficacy.
             <br /> Our drive as an organisation is to ensure that quality and
             effective pharmaceutical products and services gets to the right
-            individuals across the nation eliciting the purpose of helping
-            people live a healthy life. Our drive as an organisation is to ensure
-            that quality and effective pharmaceutical products and services gets
-            to the right individuals across the nation eliciting the purpose of
-            helping people live a healthy life.
+            individuals across the nation serving the purpose of helping people
+            live a healthy life.
           </p>
         </div>
         <div className="pharmacy-image">
