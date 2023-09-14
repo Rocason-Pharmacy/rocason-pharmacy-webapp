@@ -1,12 +1,14 @@
 import '../../styles/home/productCategory.css';
-
+import { Fade } from 'react-reveal';
 const ProductCategory = () => {
   return (
     <div className="category-wrapper">
       <div className="category-container">
         <div className="category-header">
           <div className="border-line"></div>
-          <h2>Popular Category</h2>
+          <Fade duration={2000}>
+            <h2>Popular Category</h2>
+          </Fade>
           <div className="border-line"></div>
         </div>
         <div className="category-cards flex-btw">

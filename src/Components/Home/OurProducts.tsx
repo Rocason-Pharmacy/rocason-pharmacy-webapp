@@ -5,6 +5,7 @@ import emcap from '../../assets/products/analgesics/emcap.png';
 import { HiOutlineArrowSmRight } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import '../../styles/home/ourProduct.css';
+import { Fade } from 'react-reveal';
 
 const OurProducts = () => {
   return (
@@ -12,7 +13,9 @@ const OurProducts = () => {
       <div className="product-container">
         <div className="product-header">
           <div className="border-line"></div>
-          <h2>Our Products</h2>
+          <Fade duration={2000}>
+            <h2>Our Products</h2>
+          </Fade>
           <div className="border-line"></div>
         </div>
         <div className="products-card">

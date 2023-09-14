@@ -10,16 +10,21 @@ import femaleSex from '../../assets/home/female-sex.png';
 import healthSex from '../../assets/home/health-sex.png';
 import maleSex from '../../assets/home/male-sex.png';
 import { Link } from 'react-router-dom';
+import { Fade, Zoom } from 'react-reveal';
 
 const ProRec = () => {
   return (
     <>
       <div className="recommendation-wrapper">
-        <h1>Product Recommendation</h1>
+        <Fade duration={2000}>
+          <h1>Product Recommendation</h1>
+        </Fade>
         <div className="recommendation-container">
           <div className="female-health">
             <div className="health-container flex-around">
-              <h2>Female Health</h2>
+              <Zoom>
+                <h2>Female Health</h2>
+              </Zoom>
               <div className="female-hlt-btn">
                 <Link to="/products#multivitamin" className="health-btn">
                   view
@@ -30,7 +35,9 @@ const ProRec = () => {
           </div>
           <div className="male-health">
             <div className="health-container flex-around">
-              <h2>Male Health</h2>
+              <Zoom>
+                <h2>Male Health</h2>
+              </Zoom>
               <div className="male-hlt-btn">
                 <Link to="/products#multivitamin" className="health-btn">
                   view
@@ -41,7 +48,9 @@ const ProRec = () => {
           </div>
           <div className="sex-health">
             <div className="health-container flex-around">
-              <h2>Sexual Health</h2>
+              <Zoom>
+                <h2>Sexual Health</h2>
+              </Zoom>
               <div className="sex-hlt-btn">
                 <Link to="/products#multivitamin" className="health-btn">
                   view
@@ -56,11 +65,15 @@ const ProRec = () => {
       <div className="start-chat-container">
         <div>
           <div className="start-chat">
-            <h2>Speak to a Pharmacist</h2>
-            <p>
-              Ask your Pharmacist, not the internet. Consult with our
-              Pharmacist, available online everyday
-            </p>
+            <Fade left duration={1500}>
+              <h2>Speak to a Pharmacist</h2>
+            </Fade>
+            <Fade duration={3000}>
+              <p>
+                Ask your Pharmacist, not the internet. Consult with our
+                Pharmacist, available online everyday
+              </p>
+            </Fade>
           </div>
           <div className="start-chat-btn">
             <a
