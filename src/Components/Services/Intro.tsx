@@ -4,9 +4,8 @@ import { useTypewriter } from 'react-simple-typewriter';
 const Intro = () => {
   const [workingHrsText] = useTypewriter({
     words: ['Mon - Sun : 08:00 AM - 9:30 PM'],
-    loop: false,
+    loop: 1,
     typeSpeed: 70,
-    deleteSpeed: 50,
     delaySpeed: 3000,
   });
   return (

@@ -85,7 +85,7 @@ font-size: 3.6rem;
 }
 .product-items h3{
     color: var(--blue);
-font-size: 3.2rem;
+font-size: 2.4rem;
 }
 .products-card{
     display: grid;
@@ -95,7 +95,7 @@ font-size: 3.2rem;
 }
 .product-items {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 }
 @media screen and (max-width: 400px){
