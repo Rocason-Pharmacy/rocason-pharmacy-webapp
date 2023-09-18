@@ -29,9 +29,9 @@ const ServiceCards = () => {
         ))}
       </div>
       <div className="svg-container">
-        <img src={Vector} alt="" />
-        <img src={Svg} alt="" />
-        <img src={Svg2} alt="" />
+        <img src={Vector} alt="" className="svg-top"/>
+        <img src={Svg} alt="" className="svg-bottom"/>
+        <img src={Svg2} alt="" className="svg-middle"/>
       </div>
     </div>
   );

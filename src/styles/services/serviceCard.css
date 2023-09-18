@@ -94,9 +94,33 @@
     }
 
    .service-card-header hr{
-    margin-bottom: 100px;
-}
-.service-card-header h2{
-    font-size: 4.8rem;
-}
+        margin-bottom: 100px;
+    }
+    .service-card-header h2{
+        font-size: 4.8rem;
+    }
+
+    .svg-container{
+        display: block;
+    }
+
+    .svg-top{
+        position: absolute;
+        top: 200%;
+        /* width: calc(100vw - 20px); */
+        height: calc(100vh - 80px);
+    }
+
+    .svg-middle{
+        position: absolute;
+        top: 190%;
+        right: 60%;
+    }
+
+    .svg-bottom{
+        position: absolute;
+        top: 150%;
+        right: 0;
+    }
+
 }

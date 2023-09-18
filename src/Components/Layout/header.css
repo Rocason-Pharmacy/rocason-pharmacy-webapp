@@ -8,6 +8,11 @@
   position: sticky;
   top: 0;
   z-index: 555;
+  transition: top 0.3s ease;
+  width: 100vw;
+}
+.navbar.scrolling {
+  top: -100px; 
 }
 
 .nav-links{

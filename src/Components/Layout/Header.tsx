@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { IoMdMenu } from 'react-icons/io';
 // import { MdOutlineClose } from 'react-icons/md';
 import CloseBtn from '../../assets/home/close.png';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -13,8 +13,26 @@ const Header = () => {
   const removeOpen = () => {
     setIsNavOpen(false);
   };
+
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    let timeout: NodeJS.Timeout;
+    const handleScroll = () => {
+      setScrolling(true);
+      clearTimeout(timeout);
+
+      timeout = setTimeout(() => {
+        setScrolling(false);
+      }, 1000);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll",handleScroll);
+    };
+  }, []);
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolling ? "scrolling" : ""}`}>
       <div className="logo-img">
         <NavLink to="/">
           <img src={Logo} alt="rocason-logo" />
