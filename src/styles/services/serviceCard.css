@@ -106,21 +106,26 @@
 
     .svg-top{
         position: absolute;
-        top: 200%;
-        /* width: calc(100vw - 20px); */
-        height: calc(100vh - 80px);
+        top: 183%;
+        left: 0;
+        z-index: -1;
+
     }
 
     .svg-middle{
         position: absolute;
-        top: 190%;
-        right: 60%;
+        top: 186%;
+        right: 58%;
+        z-index: -1;
+
     }
 
     .svg-bottom{
         position: absolute;
         top: 150%;
         right: 0;
+        z-index: -1;
+
     }
 
 }
