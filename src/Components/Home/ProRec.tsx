@@ -1,5 +1,4 @@
 import '../../styles/home/prorec.css';
-// import { Link } from 'react-router-dom';
 import pharmacist from '../../assets/home/pharmacistHm.png';
 import fidson from '../../assets/home/fidson.png';
 import juhel from '../../assets/home/juhel.png';
@@ -9,10 +8,15 @@ import dgf from '../../assets/home/dgf.png';
 import femaleSex from '../../assets/home/female-sex.png';
 import healthSex from '../../assets/home/health-sex.png';
 import maleSex from '../../assets/home/male-sex.png';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Fade, Zoom } from 'react-reveal';
 
 const ProRec = () => {
+  const navigate = useNavigate();
+
+  const handleNavigateToProductId = () => {
+    navigate(`/products?id=multivitamin`);
+  };
   return (
     <>
       <div className="recommendation-wrapper">
@@ -26,9 +30,12 @@ const ProRec = () => {
                 <h2>Female Health</h2>
               </Zoom>
               <div className="female-hlt-btn">
-                <Link to="/products#multivitamin" className="health-btn">
+                <button
+                  onClick={handleNavigateToProductId}
+                  className="health-btn"
+                >
                   view
-                </Link>
+                </button>
               </div>
             </div>
             <img src={femaleSex} alt="female-sex" />
@@ -39,9 +46,12 @@ const ProRec = () => {
                 <h2>Male Health</h2>
               </Zoom>
               <div className="male-hlt-btn">
-                <Link to="/products?id=multivitamin" className="health-btn">
+                <button
+                  onClick={handleNavigateToProductId}
+                  className="health-btn"
+                >
                   view
-                </Link>
+                </button>
               </div>
             </div>
             <img src={maleSex} alt="male-sex" />
@@ -52,9 +62,12 @@ const ProRec = () => {
                 <h2>Sexual Health</h2>
               </Zoom>
               <div className="sex-hlt-btn">
-                <Link to="/products#multivitamin" className="health-btn">
+                <button
+                  onClick={handleNavigateToProductId}
+                  className="health-btn"
+                >
                   view
-                </Link>
+                </button>
               </div>
             </div>
             <img src={healthSex} alt="health-sex" />

@@ -112,12 +112,12 @@ const AllProducts = () => {
           <div className="product-items-line"></div>
         </div>
 
-        <div className="product-items">
+        <div className="product-items" id="multivitamin">
           <h3>MULTIVITAMIN & SUPPLEMENT</h3>
           <div className="products-card">
             {productData.multivitamin.map((item, index) => (
               <ProductCard
-                id="multivitamin"
+                // id="multivitamin"
                 key={index}
                 productImg={item.img}
                 productTitle={item.title}
