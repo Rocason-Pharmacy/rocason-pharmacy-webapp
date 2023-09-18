@@ -14,7 +14,7 @@ const Order = () => {
           <button className="order-button">Contact Us</button>
         </Link>
       </div>
-      <img src={orderDrugs} alt="" />
+      <img src={orderDrugs} alt="pharmacy" />
     </div>
   );
 };

@@ -5,6 +5,7 @@ interface Props {
   productImg: string;
   productTitle: string;
   productPrice: number;
+  id?: string;
 }
 import { IoLogoWhatsapp } from 'react-icons/io';
 
