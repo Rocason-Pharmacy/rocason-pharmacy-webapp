@@ -101,6 +101,7 @@ z-index: 1;
   display: flex;
   width: 174px;
   height: 66px;
+  border: none;
   justify-content: center;
   align-items: center;
   border-radius: 45px;
