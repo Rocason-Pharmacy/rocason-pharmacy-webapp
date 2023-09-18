@@ -9,6 +9,7 @@ import healthCheck from '../../assets/about/health-check.svg';
 import customerSupport from '../../assets/about/customer-support.svg';
 import { useTypewriter } from 'react-simple-typewriter';
 import { Fade, Zoom } from 'react-reveal';
+import SEO from '../Seo';
 
 const Intro = () => {
   const [workingHrsText] = useTypewriter({
@@ -19,6 +20,13 @@ const Intro = () => {
   });
   return (
     <div>
+      <SEO
+        title="Rocason Pharmacy"
+        description="Rocason Pharmacy specialises in
+            providing access to orphan drugs, ethical products, and rare
+            medications in various therapeutic areas"
+        keywords="Rocason Pharmacy, Pharmacy"
+      />
       <div className="hero">
         <p className="hero-top-text">
           Working Hours <br /> <span>{workingHrsText}</span>
@@ -71,7 +79,7 @@ const Intro = () => {
             <Fade duration={2000}>
               <span className="hero-rich-text">Rocason Pharmacy</span>
             </Fade>
-            , we supply all range of medications & we bring health & wellness to
+            , we supply all range of medications, we bring health & wellness to
             your doorstep.
           </h2>
           <p className="overview-text">
