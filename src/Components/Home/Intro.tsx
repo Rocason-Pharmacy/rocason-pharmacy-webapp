@@ -28,6 +28,7 @@ const Intro = () => {
         keywords="Rocason Pharmacy, Pharmacy"
       />
       <div className="hero">
+        <div className='hero-container'>
         <p className="hero-top-text">
           Working Hours <br /> <span>{workingHrsText}</span>
         </p>
@@ -39,6 +40,7 @@ const Intro = () => {
           Your Choice For Quality{' '}
           <span className="hero-span">and Affordable Drugs.</span>
         </p>
+        </div>
       </div>
       <div className="offers-container">
         <div className="offers">

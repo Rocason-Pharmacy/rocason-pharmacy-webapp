@@ -28,7 +28,7 @@ display: flex;
 .navbar ul li a{
   color: #000;
 font-size: 18px;
-font-weight: 750;
+font-weight: 500;
   display: inline-block;
   position: relative;
 }
