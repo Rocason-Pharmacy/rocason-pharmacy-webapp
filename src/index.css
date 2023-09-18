@@ -1,14 +1,27 @@
+@import url('./styles/home/intro.css');
+@import url('./styles/about/HeroBanner.css');
+@font-face {
+  font-family: 'Avenir Next LT Pro'; /* Font family name */
+  src: url('./fonts/AvenirNextLTPro-Regular.otf') format('otf'),
+       url('./fonts/AvenirNextLTPro-Bold.otf') format('otf'),
+       url('./fonts/AvenirNextLTPro-BoldCn.otf') format('otf'), 
+       url('./fonts/AvenirNextLTPro-It.otf') format('otf');
+}
+
+
 :root {
   font-size: 62.5%;
   --blue: #2E318F;
   --white: #ffffff;
   --green:#00A551;
+  font-family: 'Avenir Next LT Pro',sans-serif, serif;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 a{
@@ -17,10 +30,9 @@ a{
   color: inherit
 }
 
-body {
- margin-left: 5rem;
- margin-right: 5rem;
-}
+/* body {
+ overflow-x: hidden;
+} */
 
 h1 {
   font-size: 3rem;
@@ -39,4 +51,12 @@ p, li{
 
 button{
   cursor: pointer;
+}
+.flex-btw{
+  display: flex;
+  justify-content: space-between;
+}
+.column{
+  display: flex;
+  flex-direction: column;
 }

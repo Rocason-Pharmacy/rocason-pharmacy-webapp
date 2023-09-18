@@ -1,0 +1,178 @@
+.offer-wrapper{
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+}
+.offer-container{
+    padding:157px 96px 118px;
+    max-width: 144rem;
+    margin: 0 auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.offer-container h2{
+    color: #00A551;
+font-size: 4.8rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 65px;
+}
+.offer-container img{
+  width: 84px;
+height: 84px;
+}
+.offer-row1{
+    gap: 50px;
+    margin-bottom: 129px;
+}
+.offer-row2{
+    gap: 50px;
+}
+.offer-quality{
+    gap:20px;
+    max-width: 367px;
+}
+.offer-quality h4{
+    color: rgba(0, 0, 0, 0.52);
+font-size: 3.2rem;
+font-weight: 750;
+}
+.offer-quality p{
+ color: #231F20;
+font-size: 2.4rem;
+}
+.offer-hrs{
+    gap:20px;
+    max-width: 440px;
+}
+.offer-hrs h4{
+    color: rgba(0, 0, 0, 0.52);
+font-size: 3.2rem;
+font-weight: 750;
+}
+.offer-hrs p{
+ color: #231F20;
+font-size: 2.4rem;
+}
+.offer-delivery{
+    gap:20px;
+    max-width: 347px;
+}
+.offer-delivery h4{
+    color: rgba(0, 0, 0, 0.52);
+font-size: 3.2rem;
+font-weight: 750;
+}
+.offer-delivery p{
+ color: #231F20;
+font-size: 2.4rem;
+}
+.health-check{
+    gap:20px;
+    max-width: 348px;
+}
+.health-check h4{
+    color: rgba(0, 0, 0, 0.52);
+font-size: 3.2rem;
+font-weight: 750;
+}
+.health-check p{
+ color: #231F20;
+font-size: 2.4rem;
+}
+.pickup{
+    gap:20px;
+    max-width: 433px;
+}
+.pickup h4{
+    color: rgba(0, 0, 0, 0.52);
+font-size: 3.2rem;
+font-weight: 750;
+}
+.pickup p{
+ color: #231F20;
+font-size: 2.4rem;
+}
+.customer-support{
+    gap:20px;
+    max-width: 331px;
+}
+.customer-support h4{
+    color: rgba(0, 0, 0, 0.52);
+font-size: 3.2rem;
+font-weight: 750;
+}
+.customer-support p{
+ color: #231F20;
+font-size: 2.4rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px) {
+    .offer-container{
+    padding:157px 80px 118px;
+}
+    .offer-row1 {
+        flex-wrap: wrap;
+       gap:20px;
+    }
+    .offer-row2 {
+        flex-wrap: wrap;
+         gap:20px;
+    }
+    .offer-hrs {
+    max-width: 410px;
+}
+.pickup {
+    max-width: 413px;
+}
+}
+@media screen and (max-width: 1024px) {
+    .offer-container{
+    padding:127px 30px 138px 50px;}
+    .offer-row1 {
+        flex-wrap: wrap;
+       gap:30px;
+    }
+    .offer-row2 {
+        flex-wrap: wrap;
+         gap:30px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+     .offer-container{
+    padding:100px 22.5px 90px;
+}
+     .offer-container h2{
+    margin-bottom: 30px;
+}
+     .offer-container h4{
+   font-size: 2.4rem;
+}
+  .offer-container p{
+        font-size: 1.6rem;
+    }
+.offer-row1 {
+    flex-direction: column;
+    margin-bottom:70px
+    
+    }
+    .offer-row2 {
+       flex-direction: column;
+    }
+    
+    .mobile-center{
+        align-items: center;
+        text-align: center;
+        max-width: 440px;
+    }
+    .offer-container img{
+  width: 62px;
+height: 62px;
+}
+}

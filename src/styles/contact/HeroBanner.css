@@ -1,0 +1,96 @@
+.contact-hero-banner{
+    width: 100%;
+    min-height: calc(100vh - 75px);
+    background: linear-gradient(to right, #fff 70%, var(--blue) 30%); 
+}
+.contact-hero-container{
+    max-width: 144rem;
+    margin: 0 auto;
+    padding-left:86px;
+    padding-top:36px ;
+}
+.contact-hero-detail{
+    min-height: 70vh;
+    align-items: center;
+}
+.contact-hero-context{
+    max-width: 606px;
+}
+.contact-hero-context h1{
+    color: var(--green);
+    font-size: 4.8rem;
+font-weight: 700;
+padding-bottom: 46px;
+}
+.contact-hero-context p{
+    color: rgba(0, 0, 0, 0.80);
+font-size: 2rem;
+line-height: 28px; 
+}
+.contact-working-hour p{  
+color: #00A551;
+font-size: 2rem;
+font-weight: 750;
+}
+.contact-hero-image img{
+    max-width: 700px;
+}
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px) {
+   .contact-hero-image img{
+    max-width: 550px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+     .contact-hero-container{  
+    padding:50px 50px 52px ;
+}
+    .contact-hero-banner{
+    width: 100%;
+    min-height: 100vh;
+    background:var(--blue) ;
+}
+.contact-hero-context {
+    max-width: 100%;
+}
+.contact-hero-context p {
+    color: #fff; 
+}
+  .contact-hero-detail{
+    flex-direction: column-reverse;
+    min-height: 50vh;
+    
+  }
+  .contact-hero-image img{
+    margin-bottom: 50px;
+}
+  .contact-hero-context h1 {
+    text-align: center;
+    /* font-size: 3.6rem; */
+}
+  .contact-working-hour p {
+    margin-bottom: 117px;
+}
+}
+@media screen and (max-width: 768px) {
+    .contact-hero-container{  
+    padding:10px 20px 52px ;
+}
+.contact-hero-image img{
+    max-width: 375px;
+}
+.contact-hero-context h1 {
+    font-size: 3.6rem;
+    padding-bottom: 20px;
+}
+.contact-hero-context p {
+   font-size: 1.6rem;
+   text-align: center;
+   line-height: 20px;
+}
+.contact-working-hour p {
+    font-size: 1.4rem;
+}
+}

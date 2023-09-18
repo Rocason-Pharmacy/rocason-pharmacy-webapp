@@ -1,0 +1,49 @@
+.contact-wrapper{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+
+}
+.contact-map-container{
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 89px 94px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gmap-iframe{
+    width: 971px;
+    max-width: 100%;
+    height: 70vh;
+    border: 0;
+}
+.place-card-large {
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+.contact-map-container {
+    padding: 89px 50px 100px;
+}
+}
+@media screen and (max-width: 786px) {
+    .contact-map-container{
+    padding:0;
+}
+.contact-wrapper{
+    width: 100%;
+    height: 70vh;
+    background: #fff;
+
+}
+.contact-wrapper {
+    width: 100%;
+  
+}
+.gmap-iframe{
+    max-width: 100%;
+    height: 70vh;
+    border: 0;
+}
+}

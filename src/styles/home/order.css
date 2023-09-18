@@ -1,0 +1,91 @@
+.order {
+  background-color: rgba(45, 49, 147, 0.85);
+  background: url(../../assets/home/medicationBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.order{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 8.6rem 5rem;
+}
+.order button:hover{
+   opacity: 0.8;
+    transform: scale(1.02);
+}
+.order button{
+  background-color: #ffffff99;
+  color: #00a551;
+ width: 191px;
+ height: 66px;
+  border: none;
+  border-radius: 4.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.6rem;
+  font-weight: 750;
+  transition: 0.2s ease-in-out;
+}
+.order-text h1 {
+  text-align: center;
+      font-size: 3.6rem;
+  padding: 0 0 2.3rem 0;
+}
+.order-text p {
+ 
+    padding-bottom: 5.7rem;
+    text-align: center;
+
+}
+
+.ordercontainer img{
+  width:100%;
+  object-fit: cover;
+}
+
+
+@media screen and (min-width: 786px){
+.ordercontainer{
+  display: flex;
+  flex-direction: row;
+}
+.order{
+  width: 50%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  padding-left: 8.6rem;
+}
+.order-text h1 {
+      font-size: 4.8rem;
+  text-align:start;
+}
+.order-text p {
+   max-width: 337px;
+  font-size: 2.4rem;
+    text-align: start;
+
+}
+.ordercontainer img{
+  width:50%;
+}
+.order button:hover{
+  opacity: 0.8;
+}
+.order button{
+  background-color: #ffffff99;
+  color: #00a551;
+ width: 243px;
+ height: 93px;
+  border: none;
+  border-radius: 4.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2.4rem;
+  font-weight: 750;
+}
+}

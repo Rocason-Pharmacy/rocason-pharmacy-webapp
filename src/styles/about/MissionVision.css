@@ -1,0 +1,169 @@
+
+.mission-vision-wrapper{
+    position: relative;
+     width: 100%;
+   min-height: 100vh;
+}
+.mission-vision-wrapper::before {
+    content: "";
+    background-image: url('../../assets/about/mission-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+.mission-vision-container{
+    max-width: 144rem;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: center;
+}
+.mission{
+    padding: 364px 96px 117px 69px;
+    align-items: center;
+    justify-content: center!important;
+    gap:58px;
+}
+.mission-image img{
+    max-width: 520px;
+    border-radius: 100%;
+}
+.mission-context{
+    max-width: 537px;
+}
+.mission-context h4{
+color: #00A551;
+font-size: 4.8rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 43px;
+}
+.mission-context p{
+    color: rgba(35, 31, 32, 0.90);
+font-size: 2.4rem;
+line-height: 35px;
+}
+
+.vision{
+    padding: 117px 5px 142px 89px;
+    align-items: center;
+    /* justify-content: flex-end!important; */
+    gap:30px;
+}
+.vision-image img{
+    max-width: 520px;
+    border-radius: 100%;
+}
+.vision-context{
+    max-width: 597px;
+}
+.vision-context h4{
+color: #00A551;
+font-size: 4.8rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 43px;
+}
+.vision-context p{
+    color: rgba(35, 31, 32, 0.90);
+font-size: 2.4rem;
+line-height: 35px; /* 145.833% */
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px) {
+    .mission{
+    padding: 364px 76px 97px 60px;
+    gap:50px;
+}
+.mission-image img{
+    max-width: 400px;
+}
+
+.vision{
+    padding: 97px 5px 142px 79px;
+}
+.vision-image img{
+    max-width: 400px;
+}
+}
+
+@media screen and (max-width: 1028px) {
+.mission{
+    padding: 280px 50px 67px ;
+    gap:30px;
+}
+.mission-image img{
+    max-width: 342px;
+}
+.vision{
+    padding: 67px 20px 142px 50px;
+}
+.vision-image img{
+    max-width: 342px;
+}
+
+.mission-context h4{
+font-size: 3.6rem;
+margin-bottom: 25px;
+}
+.mission-context{
+    max-width: 488px;
+}
+.mission-context p{
+font-size: 2rem;
+line-height: 30px;
+}
+.vision-context h4{
+font-size: 3.6rem;
+margin-bottom: 25px;
+}
+.vision-context{
+    max-width: 488px;
+}
+.vision-context p{
+font-size: 2rem;
+line-height: 30px;
+}
+}
+
+@media screen and (max-width: 900px) {
+.mission{
+    padding: 280px 22.5px 67px ;
+    gap:30px;
+    flex-direction: column;
+}
+.mission-image img{
+    max-width: 317px;
+}
+.vision{
+    padding: 87px 22.5px 111px;
+     gap:30px;
+    flex-direction: column-reverse;
+}
+.vision-image img{
+    max-width: 317px;
+}
+
+.mission-context p{
+font-size: 1.6rem;
+line-height: normal;
+text-align: center;
+}
+
+
+.vision-context p{
+font-size: 1.6rem;
+line-height: normal;
+text-align: center;
+}
+}
