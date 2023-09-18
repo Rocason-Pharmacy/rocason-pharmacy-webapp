@@ -33,6 +33,7 @@
 }
 .mission-image img{
     max-width: 520px;
+    border-radius: 100%;
 }
 .mission-context{
     max-width: 537px;
@@ -58,6 +59,7 @@ line-height: 35px;
 }
 .vision-image img{
     max-width: 520px;
+    border-radius: 100%;
 }
 .vision-context{
     max-width: 597px;
