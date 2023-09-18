@@ -1,8 +1,21 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import productData from '../../data/productData';
 import '../../styles/products/products.css';
 import ProductCard from './ProductCard';
-// import ProductItems from './ProductItems';
 const AllProducts = () => {
+  const location = useLocation();
+  const id = new URLSearchParams(location.search).get('id'); // For query parameters
+
+  useEffect(() => {
+    if (id) {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView();
+      }
+    }
+  }, [id]);
+
   return (
     <div className="all-products">
       <div className="product-hero"></div>
@@ -100,10 +113,11 @@ const AllProducts = () => {
         </div>
 
         <div className="product-items">
-          <h3 id="multivitamin">MULTIVITAMIN & SUPPLEMENT</h3>
+          <h3>MULTIVITAMIN & SUPPLEMENT</h3>
           <div className="products-card">
             {productData.multivitamin.map((item, index) => (
               <ProductCard
+                id="multivitamin"
                 key={index}
                 productImg={item.img}
                 productTitle={item.title}

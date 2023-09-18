@@ -39,7 +39,7 @@ const ProRec = () => {
                 <h2>Male Health</h2>
               </Zoom>
               <div className="male-hlt-btn">
-                <Link to="/products#multivitamin" className="health-btn">
+                <Link to="/products?id=multivitamin" className="health-btn">
                   view
                 </Link>
               </div>
