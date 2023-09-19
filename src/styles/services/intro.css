@@ -1,9 +1,13 @@
 .service-hero{
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 2.3rem 2.2rem 1.8rem 2.2rem;
+}
+.service-hero-wrapper{
     background-image: url(../../assets/services/serviceHero.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 2.3rem 2.2rem 1.8rem 2.2rem;
 }
 
 .service-hero h1{
@@ -29,7 +33,7 @@
 
 @media (min-width: 786px) {
     .service-hero{
-        padding: 1.7rem 2.2rem 1.8rem 8.6rem;
+        padding: 3.6rem 2.2rem 1.8rem 8.6rem;
     height: calc(100vh - 95px);
     }
     .service-hero-container{

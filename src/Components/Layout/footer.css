@@ -48,7 +48,8 @@
 }
 
 .links-nav {
-    padding-top: 7px;
+    /* padding-top: 7px; */
+    padding-top: 18px;
     font-size: 1.2rem;
     font-weight: 300;
 }
