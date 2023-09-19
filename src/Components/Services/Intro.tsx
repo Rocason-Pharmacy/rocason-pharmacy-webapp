@@ -9,7 +9,7 @@ const Intro = () => {
     delaySpeed: 3000,
   });
   return (
-    <div>
+    <div className="service-hero-wrapper">
       <div className="service-hero">
         <p className="service-hero-top-text">
           Working Hours <br /> <span>{workingHrsText}</span>
