@@ -11,8 +11,8 @@ const HeroBanner: FC = () => {
     delaySpeed: 3000,
   });
   return (
-    <section className="hero-banner">
-      <div className="hero-container">
+    <section className="about-hero-banner">
+      <div className="about-hero-container">
         <div className="working-hour">
           <p>
             Working Hours
