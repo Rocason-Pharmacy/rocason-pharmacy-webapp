@@ -9,7 +9,7 @@ import healthCheck from '../../assets/about/health-check.svg';
 import customerSupport from '../../assets/about/customer-support.svg';
 import { useTypewriter } from 'react-simple-typewriter';
 import { Fade, Zoom } from 'react-reveal';
-import SEO from '../Seo';
+import Seo from '../Seo';
 
 const Intro = () => {
   const [workingHrsText] = useTypewriter({
@@ -20,7 +20,7 @@ const Intro = () => {
   });
   return (
     <div>
-      <SEO
+      <Seo
         title="Rocason Pharmacy"
         description="Rocason Pharmacy specialises in
             providing access to orphan drugs, ethical products, and rare
@@ -28,18 +28,18 @@ const Intro = () => {
         keywords="Rocason Pharmacy, Pharmacy"
       />
       <div className="hero">
-        <div className='hero-container'>
-        <p className="hero-top-text">
-          Working Hours <br /> <span>{workingHrsText}</span>
-        </p>
-        <h1>
-          Welcome to <br />
-          <span className="hero-rich-text">Rocason Pharmacy</span>
-        </h1>
-        <p className="hero-bottom-text">
-          Your Choice For Quality{' '}
-          <span className="hero-span">and Affordable Drugs.</span>
-        </p>
+        <div className="hero-container">
+          <p className="hero-top-text">
+            Working Hours <br /> <span>{workingHrsText}</span>
+          </p>
+          <h1>
+            Welcome to <br />
+            <span className="hero-rich-text">Rocason Pharmacy</span>
+          </h1>
+          <p className="hero-bottom-text">
+            Your Choice For Quality{' '}
+            <span className="hero-span">and Affordable Drugs.</span>
+          </p>
         </div>
       </div>
       <div className="offers-container">

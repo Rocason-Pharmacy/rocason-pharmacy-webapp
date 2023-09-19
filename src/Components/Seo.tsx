@@ -6,7 +6,7 @@ interface Props {
   description: string;
   keywords: string;
 }
-const SEO: FC<Props> = ({ title, description, keywords }) => {
+const Seo: FC<Props> = ({ title, description, keywords }) => {
   return (
     <Helmet>
       <title>{title}</title>
@@ -16,4 +16,4 @@ const SEO: FC<Props> = ({ title, description, keywords }) => {
   );
 };
 
-export default SEO;
+export default Seo;

@@ -3,8 +3,11 @@
 }
 .recommendation-container{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap:1%;
+  max-width: 144rem;
+    margin: 0 auto;
 }
 .female-health{
   position: relative;
@@ -16,17 +19,29 @@ background: #D2E2F8;
 display: flex;
 z-index: 1;
 justify-content: space-between;
+transition: 0.3s ease-in-out;
+}
+.female-health:hover{
+ transform: scale(1.05);
+ z-index: 5;
+  /* margin-right: 25px; */
 }
 .male-health{
   padding-left: 50px;
   position: relative;
- width: 38%;
-height: 508px;
+ width: 37%;
+height: 420px;
 border-radius: 15px;
 background: #F3F4F6;
 display: flex;
 z-index: 1;
 justify-content: space-between;
+transition: 0.3s ease-in-out;
+}
+.male-health:hover{
+ transform: scale(1.1);
+ z-index: 5;
+ margin: 0 25px;
 }
 .sex-health{
   position: relative;
@@ -38,6 +53,12 @@ display: flex;
 justify-content: space-between;
   padding-left: 30px;
   z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+.sex-health:hover{
+ transform: scale(1.03);
+ z-index: 5;
+ /* margin-left: 15px; */
 }
 .recommendation-wrapper h1{
   text-align: center;
@@ -63,8 +84,8 @@ right: -30px !important;
 z-index: 1;
 }
 .male-health img{
-  width: 400px;
-height: 350px;
+  width: 382px;
+height: 342px;
 align-self: flex-end;
 object-fit: cover;
 z-index: 1;
@@ -261,7 +282,7 @@ height: 252px;
 }
 .male-health {
     padding-left: 30px;
-    height: 458px;
+    height: 380px;
 }
 .female-health {
     width: 30%;
@@ -306,6 +327,11 @@ height: 252px;
     width: 100%;
     height: 369px;
 }
+.female-health:hover{
+ transform: scale(1.03);
+ margin-right: 0px;
+}
+
 .female-health img {
    width: 195px;
     height: 276px;
@@ -314,6 +340,10 @@ height: 252px;
     width: 100%;
     height: 370px;
 }
+.male-health:hover{
+ transform: scale(1.03);
+ margin: 0px;
+}
 .male-health img {
     width: 275px;
     height: 245px;
@@ -321,6 +351,10 @@ height: 252px;
 .sex-health {
     width: 100%;
     height: 370px;
+}
+.sex-health:hover{
+ transform: scale(1.03);
+ margin-left: 0px;
 }
 .sex-health img {
     width: 300px;
