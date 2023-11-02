@@ -35,7 +35,7 @@ import loratyn from '../assets/cough/loratyn-_loratadine.png';
 import tuxilDAdult from '../assets/cough/tuxil-d-a.png';
 import tuxiNAdult from '../assets/cough/tuxil-A.png';
 import avamys from '../assets/cough/avamys.png';
-import robitussin from '../assets/cough/Robitussin.png';
+import robitussin from '../assets/cough/robitussin.png';
 import procold from '../assets/cough/Procold.png';
 import dopatab from '../assets/products/antidiabetic/dapatab.png';
 import amaryl from '../assets/products/antidiabetic/amarly.png';
