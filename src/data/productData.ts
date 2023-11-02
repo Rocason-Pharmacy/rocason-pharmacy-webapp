@@ -1,29 +1,34 @@
-import advil from '../assets/products/analgesics/advil.png';
-import emcapExtra from '../assets/products/analgesics/emcapExtra.png';
-import panadolExtra from '../assets/products/analgesics/panadolExtra.png';
-import nurofen from '../assets/products/analgesics/nurofen.png';
-import panadol from '../assets/products/analgesics/panadol.png';
-import emcap from '../assets/products/analgesics/emcap.png';
-import volfast from '../assets/products/analgesics/voltfast.png';
-import clofenac from '../assets/products/analgesics/clofenac.png';
-import cataflam from '../assets/products/analgesics/cataflam.png';
-import artequinAdult from '../assets/products/antimalaria/artequinAdult.png';
-import coartem from '../assets/products/antimalaria/coartem.png';
-import artequinChild from '../assets/products/antimalaria/artequinChild.png';
-import lynsunate from '../assets/products/antimalaria/lynsunate.png';
-import pAlaxinTs from '../assets/products/antimalaria/p-alaxin-ts.png';
-import swidar from '../assets/products/antimalaria/swidar.png';
-import amatem from '../assets/products/antimalaria/amatem.png';
-import lonart from '../assets/products/antimalaria/lonart.png';
-import pAlaxin from '../assets/products/antimalaria/p-alaxin.png';
-import ciprotab from '../assets/products/antibiotics/ciprotab.png';
-import augmentin from '../assets/products/antibiotics/augmentin.png';
-import zinnat from '../assets/products/antibiotics/zinnat.png';
-import zithromax from '../assets/products/antibiotics/zithromax.png';
-import ciprotabTn from '../assets/products/antibiotics/ciprotabTn.png';
-import fleming from '../assets/products/antibiotics/fleming.png';
-import primpex from '../assets/products/antibiotics/primpex.png';
-import tuxilD from '../assets/products/cough/tuxilD.png';
+import paracetamol from '../assets/analgesics/paracetamol.png';
+import emcapExtra from '../assets/analgesics/emcap.png';
+import panadolExtra from '../assets/analgesics/panadol.png';
+import nurofen from '../assets/analgesics/nurofen.png';
+import calprofen from '../assets/analgesics/calprofen.png';
+// import emcap from '../assets/analgesics/emcap.png';
+import lofnac from '../assets/analgesics/voltfast-_diclofenac-sodium_-50mg-powder-sachets-x3-1_xcgisv_1-removebg-preview.png';
+import clofenac from '../assets/analgesics/clofenac.png';
+import clofenacBg from '../assets/analgesics/CLOFENAC-SR-100MG.png';
+import cataflam from '../assets/analgesics/cataflam-_diclofenac_-50g-tabs-blister-x10-1_qvnxuf_1-removebg-preview.png';
+import lokmal from '../assets/antimalaria/lokmal.png';
+import coartem from '../assets/antimalaria/COARTEM.png';
+import artequin from '../assets/antimalaria/Artequin.png';
+// import lynsunate from '../assets/antimalaria/LYNSUNATE.png';
+import pAlaxinTs from '../assets/antimalaria/P-Alaxin.png';
+import swidar from '../assets/antimalaria/swidar.png';
+import amatem from '../assets/antimalaria/amatem.png';
+import lonart from '../assets/antimalaria/lonart.png';
+import pAlaxinx2 from '../assets/antimalaria/P-Alaxin-x12.png';
+import ciprotab from '../assets/antibiotics/ciprotab.png';
+import augmentin from '../assets/antibiotics/augumentin.png';
+import zinnat from '../assets/antibiotics/zinnat.png';
+import zithromax from '../assets/antibiotics/zithro.png';
+import ciprotabTn from '../assets/antibiotics/ciprotab-tn.png';
+import fleming from '../assets/antibiotics/FLEMING.png';
+import primpex from '../assets/antibiotics/primpex.png';
+import doxycap from '../assets/antibiotics/doxycap.png';
+import ampiclox from '../assets/antibiotics/ampiclox.png';
+import loxagyl from '../assets/antibiotics/loxagyl.png';
+import amoksiklav from '../assets/antibiotics/Amoksiklav.png';
+import amoxil from '../assets/antibiotics/amoxil.png';
 import tuxilN from '../assets/products/cough/tuxilN.png';
 import strepsils from '../assets/products/cough/strepsils.png';
 import loratyn from '../assets/products/cough/loratyn.png';
@@ -64,50 +69,85 @@ const productData = {
     {
       id: 1,
       img: ciprotab,
-      title: 'Wellman whey protein',
-      price: 5400,
+      title: 'Ciprotab 500mg x14',
+      price: 2500,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 2,
       img: augmentin,
-      title: 'Wellman whey protein',
-      price: 1400,
+      title: 'Augmentin 625mg x14',
+      price: 25000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 3,
       img: zinnat,
-      title: 'zinnat',
-      price: 3000,
+      title: 'Zinnat 500mg x10',
+      price: 8500,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 4,
       img: zithromax,
-      price: 2400,
-      title: ' zithromax',
+      price: 7500,
+      title: ' Zithromax 250mg x6',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 5,
       img: ciprotabTn,
-      price: 2400,
-      title: 'ciprotabTine',
+      price: 2500,
+      title: 'Ciprotab-TN x14',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 6,
       img: fleming,
-      title: 'fleming',
-      price: 1400,
+      title: 'Fleming 625mg x14',
+      price: 6000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 7,
       img: primpex,
-      title: 'primpex',
-      price: 1400,
+      title: 'Primpex x100',
+      price: 2500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 8,
+      img: doxycap,
+      title: 'Doxycap x100',
+      price: 5500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 9,
+      img: ampiclox,
+      title: 'Ampiclox 500mg Beecham x100',
+      price: 75000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 10,
+      img: loxagyl,
+      title: 'Loxagyl 200mg x100',
+      price: 950,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 11,
+      img: amoksiklav,
+      title: 'Amoksiklav 1000MG x15',
+      price: 7000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 12,
+      img: amoxil,
+      title: 'Amoxil 500mg x100',
+      price: 19800,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
   ],
@@ -115,65 +155,65 @@ const productData = {
   analgesics: [
     {
       id: 1,
-      img: advil,
-      title: 'Advil',
+      img: paracetamol,
+      title: 'Emzor Paracetamol x96',
       price: 1400,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 2,
       img: emcapExtra,
-      title: 'Emcap Extra',
-      price: 2600,
+      title: 'Emcap Extra x100',
+      price: 2500,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 3,
       img: panadolExtra,
-      title: 'Panadol Extra',
-      price: 3400,
+      title: 'Panadol Extra x100',
+      price: 2800,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 4,
       img: nurofen,
-      title: 'Nurofen',
-      price: 2400,
+      title: 'Nurofen Express 200mg',
+      price: 3000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 5,
-      img: panadol,
-      title: 'Panadol',
+      img: calprofen,
+      title: 'Calprofen syrup',
       price: 5400,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 6,
-      img: emcap,
-      title: 'Emcap',
-      price: 300,
+      img: clofenac,
+      title: 'Clofenac 50mg x100',
+      price: 2800,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 7,
-      img: volfast,
-      title: 'Volfast',
-      price: 1600,
+      img: lofnac,
+      title: 'Lofnac Gel',
+      price: 500,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 8,
-      img: clofenac,
-      title: 'Clofenac',
-      price: 1400,
+      img: clofenacBg,
+      title: 'Clofenac SR 100mg x100',
+      price: 5800,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 9,
       img: cataflam,
-      title: 'CataFlam',
-      price: 400,
+      title: 'Cataflam x100',
+      price: 18000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
   ],
@@ -304,76 +344,76 @@ const productData = {
   antimalaria: [
     {
       id: 1,
-      price: 1400,
-      img: artequinAdult,
-      title: 'ArtequinAdult',
+      price: 950,
+      img: lokmal,
+      title: 'Lokmal QS x6',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 2,
       img: coartem,
-      price: 1800,
-      title: 'Coartem',
+      price: 2500,
+      title: 'Coartem 80/480 x6',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 3,
-      img: artequinChild,
-      price: 600,
-      title: 'ArtequinChild',
+      img: artequin,
+      price: 1900,
+      title: 'Artequick',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 4,
-      img: lynsunate,
-      price: 2400,
-      title: 'Lynsunate',
+      img: amatem,
+      price: 900,
+      title: 'Amatem softgel 20/240 x18',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 5,
       img: pAlaxinTs,
-      price: 1000,
-      title: 'Palaxints',
+      price: 1500,
+      title: 'P-Alaxin TS',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 6,
       img: swidar,
-      price: 1400,
-      title: 'Swidar',
+      price: 500,
+      title: 'Swidar x3',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 7,
       img: amatem,
-      price: 1600,
-      title: 'Amatem',
+      price: 2000,
+      title: 'Amatem softgel 80/480 x6',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 8,
       img: lonart,
-      price: 1200,
-      title: 'Lonart',
+      price: 5400,
+      title: 'Lonart DS x6',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 9,
-      img: pAlaxin,
-      price: 1400,
-      title: 'Palaxin',
+      img: pAlaxinx2,
+      price: 1500,
+      title: 'P-Alaxin x12',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
   ],
   cough: [
-    {
-      id: 1,
-      img: tuxilD,
-      title: 'Tuxild',
-      price: 3000,
-      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
-    },
+    // {
+    //   id: 1,
+    //   img: tuxilD,
+    //   title: 'Tuxild',
+    //   price: 3000,
+    //   desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    // },
     {
       id: 2,
       img: tuxilN,
