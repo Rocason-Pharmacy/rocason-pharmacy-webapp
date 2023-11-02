@@ -11,7 +11,7 @@ import cataflam from '../assets/analgesics/cataflam-_diclofenac_-50g-tabs-bliste
 import lokmal from '../assets/antimalaria/lokmal.png';
 import coartem from '../assets/antimalaria/COARTEM.png';
 import artequin from '../assets/antimalaria/Artequin.png';
-// import lynsunate from '../assets/antimalaria/LYNSUNATE.png';
+import tuxilD from '../assets/cough/Tuxil-D.png';
 import pAlaxinTs from '../assets/antimalaria/P-Alaxin.png';
 import swidar from '../assets/antimalaria/swidar.png';
 import amatem from '../assets/antimalaria/amatem.png';
@@ -29,14 +29,14 @@ import ampiclox from '../assets/antibiotics/ampiclox.png';
 import loxagyl from '../assets/antibiotics/loxagyl.png';
 import amoksiklav from '../assets/antibiotics/Amoksiklav.png';
 import amoxil from '../assets/antibiotics/amoxil.png';
-import tuxilN from '../assets/products/cough/tuxilN.png';
-import strepsils from '../assets/products/cough/strepsils.png';
-import loratyn from '../assets/products/cough/loratyn.png';
-import clarityn from '../assets/products/cough/clarityn.png';
-import dayNight from '../assets/products/cough/dayNight.png';
-import benilyn from '../assets/products/cough/benylin.png';
-import inhaler from '../assets/products/cough/inhaler.png';
-import procold from '../assets/products/cough/procold.png';
+import tuxilN from '../assets/cough/Tuxil-N-removebg-preview.png';
+import strepsils from '../assets/cough/strepsils-removebg-preview.png';
+import loratyn from '../assets/cough/loratyn-_loratadine.png';
+import tuxilDAdult from '../assets/cough/tuxil-d-a.png';
+import tuxiNAdult from '../assets/cough/tuxil-A.png';
+import avamys from '../assets/cough/avamys.png';
+import robitussin from '../assets/cough/Robitussin.png';
+import procold from '../assets/cough/Procold.png';
 import dopatab from '../assets/products/antidiabetic/dapatab.png';
 import amaryl from '../assets/products/antidiabetic/amarly.png';
 import diovan from '../assets/products/antidiabetic/diovan.png';
@@ -407,60 +407,60 @@ const productData = {
     },
   ],
   cough: [
-    // {
-    //   id: 1,
-    //   img: tuxilD,
-    //   title: 'Tuxild',
-    //   price: 3000,
-    //   desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
-    // },
+    {
+      id: 1,
+      img: tuxilD,
+      title: 'Tuxil D (Child) ',
+      price: 500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
     {
       id: 2,
       img: tuxilN,
-      title: 'Tuxiln',
-      price: 700,
+      title: 'Tuxil N (Child) ',
+      price: 500,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 3,
       img: strepsils,
-      price: 1000,
+      price: 4500,
       title: 'Strepsils',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 4,
       img: loratyn,
-      title: 'Loratyn',
-      price: 1500,
+      title: 'Loratyn-10 x100',
+      price: 6000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 5,
-      img: clarityn,
-      title: 'Clarityn',
-      price: 2000,
+      img: tuxilDAdult,
+      title: 'Tuxil D (Adult)',
+      price: 500,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 6,
-      img: dayNight,
-      price: 2400,
-      title: 'Day Night',
+      img: tuxiNAdult,
+      price: 500,
+      title: 'Tuxil N (Adult) ',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 7,
-      img: benilyn,
-      price: 1000,
-      title: 'Benilyn',
+      img: avamys,
+      price: 18000,
+      title: 'Avamys Nasal spray',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
       id: 8,
-      img: inhaler,
-      price: 400,
-      title: 'Inhaler',
+      img: robitussin,
+      price: 2400,
+      title: 'Robitussin (Chesty Cough)',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
