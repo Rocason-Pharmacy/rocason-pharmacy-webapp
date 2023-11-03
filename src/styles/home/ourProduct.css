@@ -72,6 +72,6 @@ width: 276px;
 }
 @media screen and (max-width: 446px){
     .all-product-link a{
-    border-bottom: 1px solid #2E318F;
+    /* border-bottom: 1px solid #2E318F; */
 }
 }

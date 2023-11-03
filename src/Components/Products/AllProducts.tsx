@@ -127,6 +127,54 @@ const AllProducts = () => {
           </div>
           {/* <div className="product-items-line"></div> */}
         </div>
+
+        <div className="product-items" id="female">
+          <h3>FEMALE</h3>
+          <div className="products-card">
+            {productData.female.map((item, index) => (
+              <ProductCard
+                // id="multivitamin"
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
+          </div>
+          {/* <div className="product-items-line"></div> */}
+        </div>
+
+        <div className="product-items" id="male">
+          <h3>MALE</h3>
+          <div className="products-card">
+            {productData.male.map((item, index) => (
+              <ProductCard
+                // id="multivitamin"
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
+          </div>
+          {/* <div className="product-items-line"></div> */}
+        </div>
+
+        <div className="product-items" id="others">
+          <h3>OTHERS</h3>
+          <div className="products-card">
+            {productData.others.map((item, index) => (
+              <ProductCard
+                // id="multivitamin"
+                key={index}
+                productImg={item.img}
+                productTitle={item.title}
+                productPrice={item.price}
+              />
+            ))}
+          </div>
+          {/* <div className="product-items-line"></div> */}
+        </div>
       </div>
     </div>
   );

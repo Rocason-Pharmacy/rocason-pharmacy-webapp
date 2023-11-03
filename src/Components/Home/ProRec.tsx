@@ -17,6 +17,12 @@ const ProRec = () => {
   const handleNavigateToProductId = () => {
     navigate(`/products?id=multivitamin`);
   };
+  const handleNavigateToFemaleId = () => {
+    navigate(`/products?id=female`);
+  };
+  const handleNavigateToMaletId = () => {
+    navigate(`/products?id=male`);
+  };
   return (
     <>
       <div className="recommendation-wrapper">
@@ -31,7 +37,7 @@ const ProRec = () => {
               </Zoom>
               <div className="female-hlt-btn">
                 <button
-                  onClick={handleNavigateToProductId}
+                  onClick={handleNavigateToFemaleId}
                   className="health-btn"
                 >
                   view
@@ -47,7 +53,7 @@ const ProRec = () => {
               </Zoom>
               <div className="male-hlt-btn">
                 <button
-                  onClick={handleNavigateToProductId}
+                  onClick={handleNavigateToMaletId}
                   className="health-btn"
                 >
                   view
