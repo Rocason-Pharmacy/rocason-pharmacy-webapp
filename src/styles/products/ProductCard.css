@@ -17,6 +17,9 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;
     /* max-width: 320px; */
     align-self: center;
 }
+.product-image img{
+    width: 100%;
+}
 .product-details{
     display: inline-flex;
     flex-direction: column;
@@ -64,6 +67,7 @@ font-weight: 750;
 .product-sales p {
     font-size: 1.6rem;
 }
+
 .product-image {
     max-width: 154px;
     object-fit: cover;
