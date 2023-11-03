@@ -74,6 +74,25 @@ import pump from '../assets/others/Menopace.png';
 import ginseng from '../assets/others/ginseng.png';
 import ward from '../assets/others/gallery.png';
 import alburel from '../assets/others/alburel.png';
+import wellwomanPlus from '../assets/female/wellwoman-plus.png';
+import vitaminCode from '../assets/female/WellmanDG 1.png';
+import vitaminCodex2 from '../assets/female/vitamin-code.png';
+import ovaBoost from '../assets/female/ovaboost.png';
+import menopace from '../assets/female/Menopaceoriginal.png';
+import wellwomanMax from '../assets/female/wellwoman-max_002 1.png';
+import fertiLady from '../assets/female/fertlady.png';
+import probotic from '../assets/female/probotics.png';
+import pregOriginal from '../assets/female/pregnacare_original.png';
+import pregPlus from '../assets/female/pregnacare_plus.png';
+import fertilad from '../assets/female/fertilaid.png';
+import perfectil from '../assets/female/Perfectilmax.png';
+import ultimateMaca from '../assets/female/ultimate-maca.png';
+import collagenSkin from '../assets/female/collagen-skin.png';
+import beautyComplex from '../assets/female/beauty-complex.png';
+import womenProbotic from '../assets/female/piping-rock.png';
+import julietEve from '../assets/female/julliet-eve.png';
+import Proxeed from '../assets/female/proxeed.png';
+import ladyCollagen from '../assets/female/ladies-collagen.png';
 
 const productData = {
   antibiotic: [
@@ -586,6 +605,141 @@ const productData = {
       img: inositol,
       title: 'Myo +D-Chiro Inisitol',
       price: 35000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+  ],
+  female: [
+    {
+      id: 1,
+      img: wellwomanPlus,
+      title: 'Wellwoman Plus',
+      price: 13000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 2,
+      img: vitaminCode,
+      title: 'Vitamin Code Women',
+      price: 55000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 3,
+      img: ovaBoost,
+      title: 'OvaBoost',
+      price: 30000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 4,
+      img: menopace,
+      title: 'Menopace',
+      price: 6500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 5,
+      img: wellwomanMax,
+      title: 'Wellwoman Max',
+      price: 15000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 6,
+      img: fertiLady,
+      title: 'FertiLADY',
+      price: 40000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 7,
+      img: probotic,
+      title: 'Once Daily Women',
+      price: 55000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 8,
+      img: pregOriginal,
+      title: 'Pregnacare Original',
+      price: 7500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 9,
+      img: pregPlus,
+      title: 'Pregnacare Plus',
+      price: 14500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 10,
+      img: fertilad,
+      title: 'FertilAid for women',
+      price: 30000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 11,
+      img: vitaminCodex2,
+      title: 'Vitamin Code Raw One',
+      price: 55000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 12,
+      img: collagenSkin,
+      title: 'Perfectil Platinum Collagen Liquid x10',
+      price: 55000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 13,
+      img: perfectil,
+      title: 'Perfectil Max',
+      price: 25400,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 14,
+      img: ultimateMaca,
+      title: 'Ultimate Maca Plus',
+      price: 15400,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 15,
+      img: beautyComplex,
+      title: 'Beauty Complex x30',
+      price: 40000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 16,
+      img: womenProbotic,
+      title: 'Women’s Probiotic + Cranberry ',
+      price: 18000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 17,
+      img: julietEve,
+      title: 'Juliet eve',
+      price: 20000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 18,
+      img: Proxeed,
+      title: 'Proxeed Women',
+      price: 50000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 19,
+      img: ladyCollagen,
+      title: 'Ladies Collagen',
+      price: 15000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
   ],
