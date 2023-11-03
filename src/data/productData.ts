@@ -93,6 +93,20 @@ import womenProbotic from '../assets/female/piping-rock.png';
 import julietEve from '../assets/female/julliet-eve.png';
 import Proxeed from '../assets/female/proxeed.png';
 import ladyCollagen from '../assets/female/ladies-collagen.png';
+import proxeedMan from '../assets/male/proxeed.png';
+import fertilaid from '../assets/male/fertilaid.png';
+import wellManMax from '../assets/male/wellman_max.png';
+import countBoost from '../assets/male/count-boost.png';
+import motilityBoost from '../assets/male/motility-boost.png';
+import fertiMen from '../assets/male/fertimen.png';
+import vitaminCodeMen from '../assets/male/vitamin-code.png';
+import reviveActive from '../assets/male/revive-active.png';
+import kingImmortal from '../assets/male/king-immortal.png';
+import alphaKing from '../assets/male/alpha-king.png';
+import prostate from '../assets/male/prostate.png';
+import creatinePowder from '../assets/male/ultra-pure.png';
+import longJack from '../assets/male/long-jack.png';
+import realCarbs from '../assets/male/real-carb.png';
 
 const productData = {
   antibiotic: [
@@ -740,6 +754,106 @@ const productData = {
       img: ladyCollagen,
       title: 'Ladies Collagen',
       price: 15000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+  ],
+  male: [
+    {
+      id: 1,
+      img: proxeedMan,
+      title: 'Proxeed Plus',
+      price: 50000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 2,
+      img: fertilaid,
+      title: 'FertilAid',
+      price: 30000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 3,
+      img: wellManMax,
+      title: 'Wellman Max',
+      price: 17500,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 4,
+      img: countBoost,
+      title: 'CountBoost',
+      price: 30000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 5,
+      img: motilityBoost,
+      title: 'MotilityBoost',
+      price: 30000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 6,
+      img: fertiMen,
+      title: 'FertiMEN',
+      price: 40000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 7,
+      img: vitaminCodeMen,
+      title: 'Vitamin Code Raw One',
+      price: 60000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 8,
+      img: reviveActive,
+      title: 'Revive Active x30',
+      price: 45000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 9,
+      img: kingImmortal,
+      title: 'Force Factor Alpha King Immortal',
+      price: 198000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 10,
+      img: alphaKing,
+      title: 'Force Factor Alpha King Surge',
+      price: 55000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 11,
+      img: prostate,
+      title: 'Force Factor Prostate Advanced',
+      price: 60000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 12,
+      img: creatinePowder,
+      title: 'EC Sports Creatine Powder',
+      price: 25000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 13,
+      img: longJack,
+      title: 'Long Jack XXXL x 60',
+      price: 35000,
+      desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
+    },
+    {
+      id: 14,
+      img: realCarbs,
+      title: 'Real Carbs+Protein Powder',
+      price: 30000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
   ],
