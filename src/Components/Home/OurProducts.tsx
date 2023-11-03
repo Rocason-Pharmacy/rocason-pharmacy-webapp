@@ -1,7 +1,10 @@
 import ProductCard from '../Products/ProductCard';
-import nurofen from '../../assets/products/analgesics/nurofen.png';
-import panadol from '../../assets/products/analgesics/panadol.png';
-import emcap from '../../assets/products/analgesics/emcap.png';
+import tuxilD from '../../assets/cough/tuxil-d-a.png';
+import panadol from '../../assets/analgesics/panadol.png';
+import fertiMen from '../../assets/male/fertimen.png';
+import clofenac from '../../assets/analgesics/CLOFENAC-SR-100MG.png';
+import lonart from '../../assets/antimalaria/lonart.png';
+import wellwoman from '../../assets/female/wellwoman-plus.png';
 import { HiOutlineArrowSmRight } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import '../../styles/home/ourProduct.css';
@@ -20,34 +23,34 @@ const OurProducts = () => {
         </div>
         <div className="products-card">
           <ProductCard
-            productImg={nurofen}
-            productTitle={'Nurofen Drug'}
-            productPrice={2500}
-          />
-          <ProductCard
-            productImg={emcap}
-            productTitle={'Wellwoman'}
-            productPrice={1500}
-          />
-          <ProductCard
-            productImg={nurofen}
-            productTitle={'Nurofen Drug'}
+            productImg={tuxilD}
+            productTitle={'Tuxil D (Adult) '}
             productPrice={500}
           />
           <ProductCard
-            productImg={nurofen}
-            productTitle={'Nurofen Drug'}
-            productPrice={2500}
-          />
-          <ProductCard
             productImg={panadol}
-            productTitle={'Painkiller Drug'}
-            productPrice={2000}
+            productTitle={'Panadol Extra x100'}
+            productPrice={2800}
           />
           <ProductCard
-            productImg={nurofen}
-            productTitle={'Nurofen Drug'}
-            productPrice={2100}
+            productImg={clofenac}
+            productTitle={'Clofenac SR 100mg x100'}
+            productPrice={5800}
+          />
+          <ProductCard
+            productImg={lonart}
+            productTitle={'Lonart DS x6'}
+            productPrice={5400}
+          />
+          <ProductCard
+            productImg={fertiMen}
+            productTitle={'FertiMEN'}
+            productPrice={30000}
+          />
+          <ProductCard
+            productImg={wellwoman}
+            productTitle={'Wellwoman Plus'}
+            productPrice={13500}
           />
         </div>
         <div className="all-product-link">
