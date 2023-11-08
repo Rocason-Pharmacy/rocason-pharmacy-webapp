@@ -314,7 +314,7 @@ const productData = {
     {
       id: 8,
       img: micardis,
-      price: 2500,
+      price: 25000,
       title: 'Micardis 80mg',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
@@ -510,7 +510,7 @@ const productData = {
     {
       id: 8,
       img: robitussin,
-      price: 2400,
+      price: 6500,
       title: 'Robitussin (Chesty Cough)',
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
@@ -797,7 +797,7 @@ const productData = {
       id: 6,
       img: fertiMen,
       title: 'FertiMEN',
-      price: 40000,
+      price: 30000,
       desc: 'Order and purchase your drugs online, Rocason is Always Available to Serve You, Regardless of Distance',
     },
     {
